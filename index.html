@@ -14,46 +14,39 @@
 <body>
 
 	<header class="header">
-		<section class="header__contacts" style="background-color: #d60307">
+		<section class="header__contacts">
 			<div>
 				<H6>We’ve extended our returns period to 30 days.</H6>
 			</div>
-			<div><a href="mailto:workout@email.com">workout@email.com</a></div>
-			<div><a href="tel:12345678900">1-234-567-8900</a></div>
+			<div><a href="mailto:workout@email.com" class="header__contact">workout@email.com</a></div>
+			<div><a href="tel:12345678900" class="header__contact">+1 (234) 567 89 00</a></div>
 		</section>
 		<nav class="header__menu" style="background-color: #222323">
 			<img class="header__logo" width="168" src="img/logo.svg" alt="Shop Logo">
 			<div class="header__links">
-				<a class="link" href="#about">About us.</a>
-				<a class="link" href="#sale">Sale.</a>
-				<a class="link" href="#collection">Collection.</a>
-				<a class="link" href="blog.html">Blog.</a>
-				<a class="link" href="contacts.html">Contact us.</a>
+				<a class="header__link" href="#about">About us.</a>
+				<a class="header__link" href="#sale">Sale.</a>
+				<a class="header__link" href="#collection">Collection.</a>
+				<a class="header__link" href="blog.html">Blog.</a>
+				<a class="header__link" href="#contact-us">Contact us.</a>
 			</div>
 			<div>
-				<a href="https://facebook.com"><img src="img/facebook.svg" width="31" style="background-color: #FFFFFF"
+				<a class="header__social" href="https://facebook.com"><img src="img/facebook.svg" width="31" style="background-color: #FFFFFF"
 						alt="Face Book"></a>
-				<a href="https://instagram.com"><img src="img/instagram.svg" width="31" style="background-color: #FFFFFF"
+				<a class="header__social" href="https://instagram.com"><img src="img/instagram.svg" width="31" style="background-color: #FFFFFF"
 						alt="Instagram"></a>
-				<a href="https://youtube.com"><img src="img/youtube.svg" width="31" style="background-color: #FFFFFF"
+				<a class="header__social" href="https://youtube.com"><img src="img/youtube.svg" width="31" style="background-color: #FFFFFF"
 						alt="Youtube"></a>
 			</div>
 		</nav>
-		<div class="header__niger" style="background-image: url('img/niger.webp')">
-			<br>
-			<br>
-			<br>
-			<h4 class="header__aspire">ASPIRE TO MORE</h4>
-			<h1 class="header__new">new collections by top brands.</h1>
-			<br>
-			<br>
-			<br>
+		<div class="header__niger">
+			<h4>ASPIRE TO MORE</h4>
+			<h1>new <font class="header__h1-red">collections</font> by top brands<font class="header__h1-red">.</font></h1>
 			<a href="#collection" class="header__link button">Shop Now ⮕</a>
 		</div>
 	</header>
 
 	<!-- End of Олександр ALEKS code -->
-	<HR>
 
 	<main>
 		<!-- Start of WhyChoseUs -->
@@ -140,7 +133,7 @@
 
 		<HR>
 		<!-- Start of MidSeasonSale Olga Bondarenko-->
-		<section class="sale">
+		<section id="sale" class="sale">
 			<div class="base__container">
 				<h2 class="base__h2">mid-season sale <span class="sale__span">.</span></h2>
 				<div class="base__separator"></div>
@@ -211,8 +204,12 @@
 		<!-- End of Discounr -->
 
 		<!-- Start of Main Collection Koval =======================================================================================================-->
+<<<<<<< HEAD
 
 		<section id="#collection" class="main-collection" style="border: 2px solid red;">
+=======
+		<section id="collection" class="main-collection" style="border: 2px solid red;">
+>>>>>>> c03392e30f160b41bb26a0428da3e428486bb595
 			<div class="main-collection__about __conteiner ">
 				<div class="main-collection__title text">
 					<h2 class="text__title">main COLLECTION.</h2>
@@ -365,7 +362,7 @@
 			</div>
 
 			<!--third section of footer comntainer-->
-			<div class="footer__container__bottom">
+			<div id="contact-us" class="footer__container__bottom">
 				<p class="footer__container__bottom__text">
 					© Created by
 				</p>

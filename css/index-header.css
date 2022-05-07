@@ -1,0 +1,61 @@
+h1 {
+    text-transform: uppercase;
+
+    font-size: 124px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.header__h1-red {
+    color: var(--red-text-color);
+}
+
+.header__contacts {
+    background-color: var(--red-back-color);
+    padding: 8px 40px;
+}
+
+h6, .header__contact {
+    color: var(--white-text-color);
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5px 10px 0px 5px;
+    display: block;
+}
+
+.header__contact:hover {
+    text-decoration: underline;
+}
+
+.header__menu {
+    padding: 30px 40px;
+}
+
+.header__logo {
+    margin: 20px;
+}
+
+.header__link {
+    color: var(--white-text-color);
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 12.5px 20px;
+    display: block;
+}
+
+.header__social {
+    margin: 12px;
+}
+
+.header__niger {
+    background-image: url(../img/niger.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 600px;
+    padding: 210px 540px 210px 40px;
+}
