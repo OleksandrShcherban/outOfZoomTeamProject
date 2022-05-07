@@ -1,0 +1,36 @@
+.about__description {
+    background-color: var(--black-color);
+    padding: 120px 30px 120px 30px;
+}
+
+.about__h2 {
+    text-transform: uppercase;
+    font-size: 52px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: var(--white-text-color);
+}
+
+.about__h2-red {
+    color: var(--red-text-color);
+}
+
+.about__divider {
+    background-color: rgb(255, 0, 0);
+    height: 2px;
+    width: 16%;
+}
+
+.about__h5 {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: var(--white-text-color);
+}
+
+.about__p {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: var(--white-text-color);
+}
