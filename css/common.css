@@ -11,11 +11,8 @@
     --grey-text-color: rgba(255,255,255,0.65);
     --black-color: #222323;
     --red-backg-color:#d60307;
-    font-family: 'PT Sans', sans-serif;
-    color: var(--grey-text-color);
 }
 
 img {
     display: block;
-    /*width: 100%;*/
 }
