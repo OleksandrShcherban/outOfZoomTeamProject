@@ -1,0 +1,50 @@
+/*@media (max-width:0px) {  }*/
+/* ============================= */
+.main-collection {
+}
+.main-collection__about {
+	display: flex;
+	flex-direction: column;
+}
+.__conteiner {
+	max-width: 1170px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+.main-collection__title {
+	align-items: center;
+}
+.text {
+}
+.text__title {
+	@media (min-width: 320px) {
+		color: red;
+	  }
+}
+
+.text__subtitle {
+}
+.main-collection__block {
+}
+.shop {
+}
+.shop__menu {
+}
+.shop__list {
+}
+.shop__link {
+}
+.shop__items {
+}
+.shop__item-women {
+}
+.card {
+}
+.card__img {
+}
+.card__text {
+}
+.card__price {
+}
+.card__link {
+}
