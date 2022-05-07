@@ -8,6 +8,7 @@ h1 {
 
 .header__h1-red {
     color: var(--red-text-color);
+    background-color: rgba(0,0,0,0);
 }
 
 .header__contacts {
@@ -49,12 +50,23 @@ h6, .header__contact {
 
 .header__social {
     margin: 12px;
+    background-color: #FFFFFF;
 }
 
 .header__niger {
     background-image: url(../img/niger.webp);
     background-size: cover;
     background-position: 50% 50%;
-    min-height: 600px;
+    min-height: 100%;
     padding: 210px 540px 210px 40px;
+}
+
+.header__link-button {
+    background-color: #FF0000;
+    padding: 16px 32px;
+    color: var(--white-text-color);
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
 }
