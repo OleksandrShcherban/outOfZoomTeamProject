@@ -1,6 +1,8 @@
 /*@media (max-width:0px) {  }*/
 /* ============================= */
 .main-collection {
+	padding: 90px 0px 120px 0px;
+
 }
 .main-collection__about {
 	display: flex;
@@ -10,19 +12,43 @@
 	max-width: 1170px;
 	padding: 0px 15px;
 	margin: 0 auto;
+	min-width: 100%;
+
 }
 .main-collection__title {
-	align-items: center;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
 }
 .text {
 }
 .text__title {
-	@media (min-width: 320px) {
-		color: red;
-	  }
+	
 }
+.text__title {
+	font-size:38px;
+	font-family: "Bebas Neue";
+	font-weight: 400;
+	color: #222323;
+	line-height: 40px;
+	margin: 0px 0px 20px 0px;
 
+	}
+@media (min-width: 320px) {
+
+  }
+
+  .line{
+	display: inline-block;
+	align-items: center;
+	width: 22px;
+	height: 2px;
+	background-color: #e0e0e0;
+	margin: 0px 0px 20px 0px;
+}
 .text__subtitle {
+	font-family: "PT Sans";
+	color: #717474;
+	font-size: 20px;
 }
 .main-collection__block {
 }
@@ -41,6 +67,9 @@
 .card {
 }
 .card__img {
+}
+.card__img img{
+	max-width: 100%;
 }
 .card__text {
 }
