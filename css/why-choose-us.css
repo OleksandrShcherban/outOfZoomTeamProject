@@ -39,7 +39,7 @@
 .choose-us__flex-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 25px;
 }
 
 .flex-box__item {
