@@ -1,0 +1,195 @@
+/*@media (max-width:0px) {  }*/
+/* ============================= */
+.main-collection {
+	padding: 90px 0px 120px 0px;
+
+}
+.main-collection__about {
+	display: flex;
+	flex-direction: column;
+}
+.__conteiner {
+	max-width: 1170px;
+	padding: 0px 15px;
+	margin: 0 auto;
+	min-width: 100%;
+
+}
+.main-collection__title {
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.text {
+}
+.text__title {
+	position: relative;
+}
+.text__title::after{
+	content: "";
+	box-sizing: border-box;
+	display:inline-block;
+	width: 6px;
+	height: 6px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--red-text-color);
+	margin: 0px 0px 0px 3px;
+}
+@media (min-width: 320px) {
+	.text__title {
+	font-size:38px;
+	font-family: "Bebas Neue";
+	font-weight: 400;
+	color: #222323;
+	line-height: 40px;
+	margin: 0px 0px 20px 0px;
+	}
+}
+@media (min-width: 768px) {
+	.text__title {
+		font-size: 45px;
+	}
+}
+	@media (min-width: 992px) {
+		.text__title {
+			font-size: 52px;
+		}
+	}
+		
+		.line{
+	display: inline-block;
+	align-items: center;
+	min-width: 7%;
+	height: 2px;
+	background-color: var(--line);
+	margin: 0px 0px 20px 0px;
+}
+
+.text__subtitle {
+	font-family: "PT Sans";
+	color: var(--gray-color);
+	font-size: 20px;
+}
+/* ===================================================== */
+.main-collection__block {
+}
+.shop {
+}
+.shop__menu {
+margin: 0px 0px 30px 0px;
+border-bottom: 1px solid rgba(145, 145, 145, 0.467);
+}
+.shop__list {
+	display: flex;
+	justify-content:center;
+}
+.shop__list li{
+font-size: 16px;
+font-family: "PT Sans";
+color:#a7a7a7;
+position: relative;
+list-style: none;
+}
+
+.shop__link {
+display: inline-block;
+padding: 25px 25px;
+}
+.shop__link:hover{
+	color: #5e5e5e;
+	transition: 0.5s;
+}
+.shop__link:hover::before {
+content: "";
+position: absolute;
+display: inline-block;
+bottom: -1px;
+left: 0;
+width: 100%;
+height: 2px;
+background-color: var(--red-text-color);
+}
+/* ================================================================ */
+.shop__items {
+}
+.shop__item-women {
+display: inline-block;
+padding: 0px 10px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	color:black;
+}
+
+@media (min-width: 768px ){
+	.shop__item-women {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.card{
+		flex: 1 1 50%;
+		padding: 0px 10px 0px 0px;
+	}
+	.card:last-child{
+		flex: 0 1 50%;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 992px){
+	.shop__item-women {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.card{
+		flex: 0 0 33.333%;
+		padding: 0px 10px 0px 0px;
+	}
+	.card:last-child{
+		flex: 0 1 33.333%;
+	}
+}
+.card__img {
+	margin: 0px 0px 10px 0px;
+}
+.block-img img{
+}
+.card__img{
+	display: inline-block;
+}
+.card__img img{
+	max-width: 100%;
+}
+
+.card__text {
+	font-size: 18px;
+	font-family: "PT Sans";
+	color:var(--gray-color);	
+	text-transform: capitalize;
+	margin: 0px 0px 30px 0px;
+}
+.card__text:hover{
+text-decoration:underline;
+}
+.card__price {
+	font-size: 18px;
+	font-family: "PT Sans";
+	color: var(--red-text-color);
+	font-weight: 600;
+	margin: 0px 0px 20px 0px;
+}
+.card__link{
+	display: inline-block;
+	font-size: 15px;
+	font-family: "PT Sans";
+	color: #fff;
+	max-width: 150px;
+	font-weight: 500;
+	padding: 10px 30px;
+	background-color: var(--black-color);
+	margin: 0px 0px 20px 0px;
+}
+.card__link:hover{
+background-color: var(--red-text-color);
+}

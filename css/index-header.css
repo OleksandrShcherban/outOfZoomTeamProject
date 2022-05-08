@@ -16,7 +16,7 @@ h1 {
     padding: 8px 40px;
 }
 
-h6, .header__contact {
+.header__h6, .header__contact {
     color: var(--white-text-color);
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
@@ -32,6 +32,7 @@ h6, .header__contact {
 
 .header__menu {
     padding: 30px 40px;
+    background-color: var(--black-color);
 }
 
 .header__logo {
