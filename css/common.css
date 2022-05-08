@@ -3,19 +3,32 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
     --white-text-color: #FFFFFF;
     --red-text-color: #F40106;
-    --grey-text-color: rgba(34, 35, 35, 0.46);
-    --black-color: #222323;
+    --grey-text-color: rgba(33, 33, 33, 0.5);
+    --black-color: #222222;
     --red-back-color:#d60307;
 }
+
+.base__container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 
 img {
     display: block;
 }
+
+a {
+    display: inline-block;
+    text-decoration: none;
+  }
 
 h4 {
     color: var(--grey-text-color);
