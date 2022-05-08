@@ -1,0 +1,39 @@
+.sale__cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sale__card, .sale__card-img {
+    width: 100%;
+    max-width: 230px;
+  }
+  
+  .sale__card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .sale__card-link, .sale__card-price {
+    font-family: "PT Sans", sans-serif;
+    color: #717474;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .sale__card-price {
+    color: var(--red-text-color);
+    font-weight: 700;
+  }
+  
+  .sale__input-button {
+    align-self: start;
+    background-color: var(--black-color);
+    padding: 16px 32px;
+    color: var(--white-text-color);
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
