@@ -1,15 +1,37 @@
 section.footer__container {
     border: 1px red solid;
-    padding: 20px 0px 0px 0px;
+    margin-top: 50px;
 }
-
+.footer__container__top {
+    border: 1px rgb(8, 238, 65) solid;
+    background-color: var(--line);
+}
+.footer__background {
+    width: 100%;
+}
+.container__top__inside {
+    display: flex;
+    flex-direction: row;
+    width: 33.3%;
+    
+}
+.first-order__inside__icon {
+    color: rgb(240, 22, 22);
+}
 
 .footer__container__middle {
     border: 1px white solid;
     background-color: var(--black-color);
     color: var(--white-text-color);
+    display: flex;
+    flex-direction: row;
+    padding: 70px 100px;
     
 }
+.footer__logo__container {
+    
+}
+
 .footer__container__bottom {
     background-color: var(--black-color);
     color: var(--white-text-color);
@@ -27,8 +49,15 @@ section.footer__container {
 }
 img {
     width: 179px;
+    margin-bottom: 20px;
 }
-.footer__navigation {
+.footer__logo__text {
+    color: gainsboro;
+}
+.navigation__link {
+    display: flex;
+    flex-direction: column;
+    
 
 }
 .footer__shop__container {
