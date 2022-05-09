@@ -1,4 +1,4 @@
-h1 {
+.header__h1 {
     text-transform: uppercase;
     font-size: 124px;
     font-family: 'Bebas Neue', cursive;
@@ -54,7 +54,7 @@ h1 {
     background-color: #FFFFFF;
 }
 
-.header-niger-1 {
+.header-niger {
     background-image: url(../img/backgrounds/niger-1.jpg);
     background-size: cover;
     background-position: 50% 50%;
