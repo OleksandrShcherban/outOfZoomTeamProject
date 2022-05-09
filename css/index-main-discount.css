@@ -1,7 +1,6 @@
 .discount__h1 {
     text-transform: uppercase;
     font-size: 124px;
-    font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     color: var(--white-text-color);
 }
