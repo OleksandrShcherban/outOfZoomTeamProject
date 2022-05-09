@@ -3,7 +3,7 @@
     font-size: 124px;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
-    color: var(--black-color);
+    color: var(--white-text-color);
 }
 
 .discount__h1-red {
@@ -22,9 +22,9 @@
 }
 
 .discount-niger {
-    background-image: url(../img/backgrounds/niger-2.jpg);
+    background-image: url(../img/backgrounds/niger-2.png);
     background-size: cover;
     background-position: 50% 50%;
     min-height: 100%;
-    padding: 210px 540px 210px 40px;
+    padding: 210px 50% 210px 40px;
 }
