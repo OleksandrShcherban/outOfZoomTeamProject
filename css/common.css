@@ -7,13 +7,14 @@
 }
 
 :root {
+    font-family: 'Bebas Neue', cursive;
     --white-text-color: #FFFFFF;
     --red-text-color: #F40106;
     --grey-text-color: rgba(33, 33, 33, 0.5);
     --black-color: #222222;
     --red-back-color:#d60307;
-	 --line:#e0e0e0;
-	 --gray-color:#717474;
+	--line:#e0e0e0;
+	--gray-color:#717474;
 }
 
 .base__container {
@@ -34,7 +35,6 @@ a {
 
 h4 {
     color: var(--grey-text-color);
-    font-family: 'Bebas Neue', cursive;
     font-size: 24px;
     font-weight: 400;
 }
