@@ -105,8 +105,14 @@
     background-image: url(../img/backgrounds/niger-1.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    min-height: 100%;
-    padding: 210px 40% 210px 40px;
+    min-height: 720px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.aspire__container {
+    width: 60%;
 }
 
 .header__link-button {

@@ -1,22 +1,40 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-men {
+    background-image: url(../img/backgrounds/men.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 720px;
+}
+
 .about-description {
-    background-color: var(--black-color);
-    padding: 120px 30px 120px 30px;
+    background-color: var(--dark-color);
+    display: flex;
+}
+
+.about__container {
+    width: 100%;
+    max-width: 660px;
+    margin: auto auto auto 0;
+    padding: 0 60px;
 }
 
 .about__h2 {
     text-transform: uppercase;
     font-size: 52px;
     font-weight: 400;
-    color: var(--white-text-color);
+    color: var(--light-color);
 }
 
-.about__h2-red {
-    color: var(--red-text-color);
-    background-color: rgba(0,0,0,0);
+.about__h2-accent {
+    color: var(--accent-text-color);
 }
 
 .about__divider {
-    background-color: rgb(255, 0, 0);
+    background-color: var(--accent-signal-color);
     height: 2px;
     width: 16%;
 }
@@ -25,14 +43,18 @@
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
-    color: var(--white-text-color);
+    color: var(--light-color);
 }
 
 .about__p {
     font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
-    color: var(--white-text-color);
+    color: var(--light-color);
+}
+
+.about-socials {
+    text-align: center;
 }
 
 .about__social {
@@ -40,5 +62,6 @@
     margin-right: 0;
     text-align: right;
     height: 30px;
+    width: 30px;
     background-color: var(--accent-text-color);
 }
