@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&display=swap');
 
 :root {
-    font-family: 'Bebas Neue', cursive;
-    --white-text-color: #FFFFFF;
-    --red-text-color: #F40106;
-    --grey-text-color: rgba(33, 33, 33, 0.5);
-    --black-color: #222222;
-    --red-back-color:#d60307;
+  font-family: 'Bebas Neue', sans-serif;
+  --light-color: #FFFFFF;
+  --dark-color: #222222;
+  --accent-signal-color: #FF0000;
+  --accent-text-color: #F40106;
+  --accent-back-color:#d60307;
+  --secondary-text-color: rgba(33, 33, 33, 0.5);
 	--line:#e0e0e0;
 	--gray-color:#717474;
 }
@@ -26,9 +27,3 @@ a {
     display: inline-block;
     text-decoration: none;
   }
-
-h4 {
-    color: var(--grey-text-color);
-    font-size: 24px;
-    font-weight: 400;
-}
