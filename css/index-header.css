@@ -1,13 +1,18 @@
 .header__h1 {
     text-transform: uppercase;
-    font-size: 124px;
+    font-size: 62px;
     font-weight: 400;
     color: var(--dark-color);
 }
 
+@media (min-width: 660px) {
+    .header__h1 {
+        font-size: 93px;
+    }
+}
+
 .header__h1-accent {
     color: var(--accent-text-color);
-    background-color: rgba(0,0,0,0);
 }
 
 .header-contacts {
@@ -19,6 +24,9 @@
 @media (min-width: 990px) {
 .header-contacts {
     display: block;
+}
+.header__h1 {
+    font-size: 124px;
 }
 }
 

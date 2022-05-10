@@ -36,6 +36,9 @@
 }
 
 .about__social {
-    margin: 12px;
-    background-color: #FF0000;
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+    height: 30px;
+    background-color: var(--accent-text-color);
 }
