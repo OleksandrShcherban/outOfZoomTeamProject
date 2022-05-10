@@ -40,7 +40,10 @@
 @media (min-width: 320px) {
 	.text__title {
 	font-size:38px;
+<<<<<<< HEAD
 	font-family: "Bebas Neue", cursive;
+=======
+>>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	font-weight: 400;
 	color: #222323;
 	line-height: 40px;
@@ -68,6 +71,10 @@
 }
 
 .text__subtitle {
+<<<<<<< HEAD
+=======
+	font-family: "PT Sans", sans-serif;
+>>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color: var(--gray-color);
 	font-size: 20px;
 }
@@ -86,6 +93,10 @@ border-bottom: 1px solid rgba(145, 145, 145, 0.467);
 }
 .shop__list li{
 font-size: 16px;
+<<<<<<< HEAD
+=======
+font-family: "PT Sans", sans-serif;
+>>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 color:#a7a7a7;
 position: relative;
 list-style: none;
@@ -164,6 +175,10 @@ padding: 0px 10px;
 
 .card__text {
 	font-size: 18px;
+<<<<<<< HEAD
+=======
+	font-family: "PT Sans", sans-serif;
+>>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color:var(--gray-color);	
 	text-transform: capitalize;
 	margin: 0px 0px 30px 0px;
@@ -173,6 +188,10 @@ text-decoration:underline;
 }
 .card__price {
 	font-size: 18px;
+<<<<<<< HEAD
+=======
+	font-family: "PT Sans", sans-serif;
+>>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color: var(--red-text-color);
 	font-weight: 600;
 	margin: 0px 0px 20px 0px;
@@ -180,6 +199,10 @@ text-decoration:underline;
 .card__link{
 	display: inline-block;
 	font-size: 15px;
+<<<<<<< HEAD
+=======
+	font-family: "PT Sans", sans-serif;
+>>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color: #fff;
 	max-width: 150px;
 	font-weight: 500;

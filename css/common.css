@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
-    --white-text-color: #FFFFFF;
-    --red-text-color: #F40106;
-    --grey-text-color: rgba(33, 33, 33, 0.5);
-    --black-color: #222222;
-    --red-back-color:#d60307;
-	 --line:#e0e0e0;
-	 --gray-color:#717474;
+  font-family: 'Bebas Neue', sans-serif;
+  --light-color: #FFFFFF;
+  --dark-color: #222222;
+  --accent-signal-color: #FF0000;
+  --accent-text-color: #F40106;
+  --accent-back-color:#d60307;
+  --secondary-text-color: rgba(33, 33, 33, 0.5);
+	--line:#e0e0e0;
+	--gray-color:#717474;
 }
 
 .base__container {
@@ -31,10 +27,3 @@ a {
     display: inline-block;
     text-decoration: none;
   }
-
-h4 {
-    color: var(--grey-text-color);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 24px;
-    font-weight: 400;
-}

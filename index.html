@@ -15,7 +15,7 @@
 	<!--start of Олександр ALEKS code -->
 	<header>
 		<article class="header-contacts">
-			<div class="base__container">
+			<div class="base__container header__container">
 				<div>
 					<h6 class="header__h6">We’ve extended our returns period to 30 days.</h6>
 				</div>
@@ -24,29 +24,28 @@
 			</div>
 		</article>
 		<nav class="header-menu">
-			<div class="base__container">
-				<img class="header__logo" width="168" src="img/logo.svg" alt="Shop Logo">
-				<div>
+			<div class="base__container menu__container">
+				<div class="header-logo__container">
+				<img class="header__logo" src="img/logo.svg" alt="Shop Logo">
+				</div>
+				<div class="header-links">
 					<a class="header__link" href="#about">About us.</a>
 					<a class="header__link" href="#sale">Sale.</a>
 					<a class="header__link" href="#collection">Collection.</a>
 					<a class="header__link" href="blog.html">Blog.</a>
 					<a class="header__link" href="#contact-us">Contact us.</a>
 				</div>
-				<div>
-					<a href="https://facebook.com"><img class="header__social" src="img/facebook.svg" width="30"
-							alt="Face Book"></a>
-					<a href="https://instagram.com"><img class="header__social" src="img/instagram.svg" width="30"
-							alt="Instagram"></a>
-					<a href="https://youtube.com"><img class="header__social" src="img/youtube.svg" width="30"
-							alt="Youtube"></a>
+				<div class="header-socials">
+					<a href="https://facebook.com"><img class="header__social" src="img/facebook.svg" alt="Face Book"></a>___
+					<a href="https://instagram.com"><img class="header__social" src="img/instagram.svg" alt="Instagram"></a>___
+					<a href="https://youtube.com"><img class="header__social" src="img/youtube.svg" alt="Youtube"></a>
 				</div>
 			</div>
 		</nav>
-		<article class="header-niger-1">
+		<article class="header-niger">
 			<div class="base__container">
-				<h4>ASPIRE TO MORE</h4>
-				<h1>new <mark class="header__h1-red">collections</mark> by top brands<mark class="header__h1-red">.</mark>
+				<h4 class="header__h4">ASPIRE TO MORE</h4>
+				<h1 class="header__h1">new <mark class="header__h1-accent">collections</mark> by top brands<mark class="header__h1-accent">.</mark>
 				</h1>
 				<a href="#collection" class="header__link-button">Shop Now ⮕</a>
 			</div>
@@ -182,8 +181,16 @@
 			</div>
 		</section>
 		<!-- End of MidSeasonSale Olga Bondarenko-->
-		<!-- Start of Discount -->
-		<!-- End of Discount -->
+		<!-- Start of Discount Олександр ALEKS code -->
+	<section class="discount-niger">
+			<div class="base__container">
+				<h4>SALE OF THE MONTH</h4>
+				<h1 class="discount__h1">Get Your Discount<mark class="discount__h1-red">.</mark></h1>
+				<a href="#sale" class="discount__link-button">Shop Now ⮕</a>
+			</div>
+	</section>
+
+		<!-- End of Discount ALEKS code -->
 
 		<!-- Start of Main Collection Koval =======================================================================================================-->
 
@@ -276,24 +283,11 @@
 		<!-- Start of New Arrivals -->
 		<!-- End of New Arrivals -->
 
-	</main>
-	<!-- Start of Footer -->
-	<footer class="footer">
-		<div class="footer__contacts">
-			<form action="">
-				<input name="" type="text" placeholder="Name*" required>
-				<input type="tel" placeholder="Phone number*" required>
-				<input type="email" placeholder="Email*" required>
-				<input type="submit" value="Send a request">
-			</form>
-		</div>
-
-	</footer>
-
 	<footer class="footer">
 		<section class="footer__container">
 			<!--first section of footer comntainer-->
 			<div class="footer__container__top">
+				<img class="footer__background" src="https://res2.weblium.site/res/60080b98d4893c0021b21b64/601137cc26eea30022cdc78e_optimized_5120" alt="background">
 				<div class="container__top__inside">
 					<div class="container__top__inside__empty">
 						<!--empty div-->
@@ -301,9 +295,7 @@
 					<div class="container__top__inside__first-order">
 						<!--first order div-->
 						<div class="first-order__inside">
-							<div class="first-order__inside__logo">
-								<i class="fa-solid fa-envelope-open-text"></i>
-							</div>
+							<img class="first-order__inside__icon" src="http://www.w3.org/1999/xlink" alt="logo">
 							<div class="first-order__inside__text">
 								<span>10%</span>
 								<span>OFF YOUR FIRST ORDER. SIGN UP TO OUR NEWSLETTER TO GET THIS SPECIAL
@@ -328,9 +320,7 @@
 				<div class="footer__logo">
 					<div class="footer__logo__container">
 						<img src="img/logo.svg" alt="LOGO">
-					</div>
-					<div class="footer__logo__text">
-						<p>
+						<p class="footer__logo__text">
 							Workout offers fitness clothing and footwear for those who want to change their lives
 							and bodies for better.
 						</p>
@@ -340,7 +330,7 @@
 					<span class="footer__navigation__title">
 						NAVIGATION
 					</span>
-					<div class="navigation__line"></div>
+					<div class="navigation__link"></div>
 					<div>
 						<a class="footer__navigation__links" href="#about">About us.</a>
 						<a class="footer__navigation__links" href="#collection">Collection.</a>
