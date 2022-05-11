@@ -40,6 +40,8 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: var(--light-color);
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .about__p {
@@ -47,6 +49,7 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: var(--light-color);
+    margin-bottom: 40px;
 }
 
 .about-socials {
