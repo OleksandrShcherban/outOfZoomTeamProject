@@ -5,17 +5,23 @@ section.footer__container {
 .footer__container__top {
     background-image: url(../img/footer-background.jpg);
     background-size: cover;
-    background-position: 50% 50%;
-    min-height: 215px;
+    background-position: 75% 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
+}
+.container__top__inside__empty {
+    margin: 20px; 
 }
 
 .container__top__inside__first-order {
     display: flex;
     flex-direction: row;
+    margin: 20px; 
+
+
 }
 
 .footer__ten__procent {
@@ -26,43 +32,66 @@ section.footer__container {
 .first-order__text {
     width: bold;
     font-size: 14px;
-}
 
+}
 .container__top__inside__form {
-    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
 }
-
+.form__email {
+    margin: 10px;
+    padding: 15px 26px;
+    height: 20px;
+    min-width: 220px;
+    background-color: var(--line);
+}
+#form__button {
+    margin: 10px;
+    padding: 15px 26px;
+    height: 20px;
+    min-width: 220px;
+    background-color: var(--accent-signal-color);
+    text-align: center;
+    align-items: center;
+}
 .footer__container__middle {
     border: 1px white solid;
-    background-color: var(--black-color);
-    color: var(--white-text-color);
+    background-color: var(--dark-color);
+    color: var(--light-color);
     display: flex;
-    flex-direction: row;
-    padding: 70px 100px;   
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
 }
+.footer__main__logo {
+    width: 179px;
+}
+
 
 .footer__container__bottom {
-    background-color: var(--black-color);
-    color: var(--white-text-color);
+    background-color: var(--dark-color);
+    color: var(--light-color);
     text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 400;
     display: flex;
-    flex-direction: row;
-    padding: 25px 0px 25px 0px;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
 }
-
-.footer__logo {
-    width: 25%;
-    display: inline-block;
-}
-
 .footer__logo__text {
     color: gainsboro;
+    font-size: 16px;
 }
 
 .navigation__link {
     display: flex;
     flex-direction: column;
+}
+
+
+.footer__social {
+    color: var(--light-color);
 }
