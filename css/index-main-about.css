@@ -64,3 +64,8 @@
     width: 30px;
     background-color: var(--accent-text-color);
 }
+
+.about__social:hover {
+    background-color: var(--light-color);
+    transition: 0.5s;
+}

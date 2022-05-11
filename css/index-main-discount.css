@@ -2,7 +2,7 @@
     text-transform: uppercase;
     font-size: 62px;
     font-weight: 400;
-    color: var(--light-text-color);
+    color: var(--light-color);
 }
 
 @media (min-width: 660px) {
@@ -17,25 +17,38 @@
     }
 }
 
-.discount__h1-red {
-    color: var(--red-text-color);
-    background-color: rgba(0,0,0,0);
-}
-
 .discount__link-button {
-    background-color: #FFFFFF;
+    background-color: var(--light-color);
     padding: 16px 32px;
-    color: var(--black-color);
+    color: var(--dark-color);
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
 }
 
+.discount__link-button:hover {
+    background-color: var(--dark-color);
+    transition: 0.5s;
+    color: var(--light-color);
+}
+
 .discount-niger {
     background-image: url(../img/backgrounds/niger-2.png);
     background-size: cover;
     background-position: 50% 50%;
-    min-height: 100%;
-    padding: 210px 50% 210px 40px;
+    min-height: 720px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.month__container {
+    width: 50%;
+}
+
+.discount__h4 {
+    color: var(--tertiary-text-color);
+    font-size: 24px;
+    font-weight: 400;
 }

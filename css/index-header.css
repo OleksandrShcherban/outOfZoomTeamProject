@@ -101,6 +101,11 @@
     margin: 0;
 }
 
+.header__social:hover {
+    background-color: var(--accent-signal-color);
+    transition: 0.5s;
+}
+
 .header-niger {
     background-image: url(../img/backgrounds/niger-1.jpg);
     background-size: cover;
@@ -127,6 +132,7 @@
 
 .header__link-button:hover {
     background-color: var(--dark-color);
+    transition: 0.5s;
 }
 
 .header__h4 {
