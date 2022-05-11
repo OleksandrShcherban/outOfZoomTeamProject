@@ -7,13 +7,29 @@ section.footer__container {
     background-size: cover;
     background-position: 50% 50%;
     min-height: 215px;
-}
-
-.container__top__inside {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center  
+    justify-content: center;
+}
+
+.container__top__inside__first-order {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__ten__procent {
+    color: var(--accent-signal-color);
+    width: bold;
+    font-size: 21px;
+}
+.first-order__text {
+    width: bold;
+    font-size: 14px;
+}
+
+.container__top__inside__form {
+    padding: 20px 40px;
 }
 
 .footer__container__middle {
