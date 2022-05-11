@@ -12,10 +12,6 @@
 	--gray-color:#717474;
 }
 
-<<<<<<< HEAD
-/*.base__container */
-[class*="__container"] {
-=======
 img {
   display: block;
   width: 100%;
@@ -27,7 +23,6 @@ a {
 }
 
 .base__container {
->>>>>>> 1c46831c31c402c69b658a4dcb1f04aba94c64cc
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
