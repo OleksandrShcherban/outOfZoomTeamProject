@@ -29,10 +29,6 @@
     color: var(--light-color);
 }
 
-.about__h2-accent {
-    color: var(--accent-text-color);
-}
-
 .about__divider {
     background-color: var(--accent-signal-color);
     height: 2px;

@@ -12,6 +12,16 @@
 	--gray-color:#717474;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .base__container {
     width: 100%;
     max-width: 1320px;
@@ -19,11 +29,7 @@
     padding: 0 15px;
   }
 
-img {
-    display: block;
+  .base__span {
+    color: var(--accent-text-color);
 }
 
-a {
-    display: inline-block;
-    text-decoration: none;
-  }
