@@ -1,22 +1,19 @@
 section.footer__container {
     border: 1px red solid;
-    margin-top: 50px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .footer__container__top {
-    border: 1px rgb(8, 238, 65) solid;
-    background-color: var(--line);
+    background-image: url(../img/footer-background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 215px;
 }
-.footer__background {
-    width: 100%;
-}
+
 .container__top__inside {
     display: flex;
-    flex-direction: row;
-    width: 33.3%;
-    
-}
-.first-order__inside__icon {
-    color: rgb(240, 22, 22);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center  
 }
 
 .footer__container__middle {
@@ -25,11 +22,7 @@ section.footer__container {
     color: var(--white-text-color);
     display: flex;
     flex-direction: row;
-    padding: 70px 100px;
-    
-}
-.footer__logo__container {
-    
+    padding: 70px 100px;   
 }
 
 .footer__container__bottom {
@@ -43,23 +36,17 @@ section.footer__container {
     padding: 25px 0px 25px 0px;
     
 }
+
 .footer__logo {
     width: 25%;
     display: inline-block;
 }
-img {
-    width: 179px;
-    margin-bottom: 20px;
-}
+
 .footer__logo__text {
     color: gainsboro;
 }
+
 .navigation__link {
     display: flex;
     flex-direction: column;
-    
-
-}
-.footer__shop__container {
-
 }
