@@ -68,7 +68,7 @@
 
 .text__subtitle {
 	font-family: "PT Sans", sans-serif;
-	color: var(--gray-color);
+	color: var(--primary-text-color);
 	font-size: 20px;
 }
 /* ===================================================== */
@@ -166,7 +166,7 @@ padding: 0px 10px;
 .card__text {
 	font-size: 18px;
 	font-family: "PT Sans", sans-serif;
-	color:var(--gray-color);	
+	color:var(--primary-text-color);	
 	text-transform: capitalize;
 	margin: 0px 0px 30px 0px;
 }

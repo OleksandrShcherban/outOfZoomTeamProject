@@ -5,12 +5,13 @@
   --light-color: #FFFFFF;
   --dark-color: #222222;
   --accent-signal-color: #FF0000;
-  --accent-text-color: #F40106;
-  --accent-back-color:#d60307;
+  --accent-text-color: #F00000;
+  --accent-back-color:#d00000;
+	--primary-text-color:#777777;  
   --secondary-text-color: rgba(33, 33, 33, 0.5);
   --tertiary-text-color: rgba(255, 255, 255, 0.6);
 	--line:#e0e0e0;
-	--gray-color:#717474;
+
 }
 
 img {
