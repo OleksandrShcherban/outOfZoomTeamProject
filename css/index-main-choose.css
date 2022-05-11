@@ -17,10 +17,6 @@
     margin-bottom: 15px;
 }
 
-.base__span {
-    color: var(--red-text-color);
-}
-
 .base__separator {
     height: 2px;
     width: 8%;

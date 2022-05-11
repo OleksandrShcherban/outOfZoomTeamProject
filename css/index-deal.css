@@ -17,9 +17,6 @@
     max-width: 462px;
     line-height: 1;
 }
-.title-dot{ 
-    color: var(--accent-text-color);
-}
 .deal__text-price{ 
     font-size: 10px;
     color:var(--light-color);
