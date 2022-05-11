@@ -34,16 +34,12 @@
 	height: 6px;
 	bottom: 0;
 	left: 0;
-	background-color: var(--red-text-color);
+	background-color: var(--accent-signal-color);
 	margin: 0px 0px 0px 3px;
 }
 @media (min-width: 320px) {
 	.text__title {
 	font-size:38px;
-<<<<<<< HEAD
-	font-family: "Bebas Neue", cursive;
-=======
->>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	font-weight: 400;
 	color: #222323;
 	line-height: 40px;
@@ -71,10 +67,7 @@
 }
 
 .text__subtitle {
-<<<<<<< HEAD
-=======
 	font-family: "PT Sans", sans-serif;
->>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color: var(--gray-color);
 	font-size: 20px;
 }
@@ -93,10 +86,7 @@ border-bottom: 1px solid rgba(145, 145, 145, 0.467);
 }
 .shop__list li{
 font-size: 16px;
-<<<<<<< HEAD
-=======
 font-family: "PT Sans", sans-serif;
->>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 color:#a7a7a7;
 position: relative;
 list-style: none;
@@ -118,7 +108,7 @@ bottom: -1px;
 left: 0;
 width: 100%;
 height: 2px;
-background-color: var(--red-text-color);
+background-color: var(--accent-signal-color);
 }
 /* ================================================================ */
 .shop__items {
@@ -126,11 +116,12 @@ background-color: var(--red-text-color);
 .shop__item-women {
 display: inline-block;
 padding: 0px 10px;
+/*text-align: center;*/
 }
 .card {
 	display: flex;
 	flex-direction: column;
-	color:black;
+	color:--dark-color;
 }
 
 @media (min-width: 768px ){
@@ -150,7 +141,6 @@ padding: 0px 10px;
 
 @media (min-width: 992px){
 	.shop__item-women {
-		display: flex;
 		flex-wrap: nowrap;
 	}
 	.card{
@@ -175,10 +165,7 @@ padding: 0px 10px;
 
 .card__text {
 	font-size: 18px;
-<<<<<<< HEAD
-=======
 	font-family: "PT Sans", sans-serif;
->>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color:var(--gray-color);	
 	text-transform: capitalize;
 	margin: 0px 0px 30px 0px;
@@ -188,28 +175,22 @@ text-decoration:underline;
 }
 .card__price {
 	font-size: 18px;
-<<<<<<< HEAD
-=======
 	font-family: "PT Sans", sans-serif;
->>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
-	color: var(--red-text-color);
+	color: var(--accent-signal-color);
 	font-weight: 600;
 	margin: 0px 0px 20px 0px;
 }
 .card__link{
 	display: inline-block;
 	font-size: 15px;
-<<<<<<< HEAD
-=======
 	font-family: "PT Sans", sans-serif;
->>>>>>> 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154
 	color: #fff;
 	max-width: 150px;
 	font-weight: 500;
 	padding: 10px 30px;
-	background-color: var(--black-color);
+	background-color: var(--dark-color);
 	margin: 0px 0px 20px 0px;
 }
 .card__link:hover{
-background-color: var(--red-text-color);
+background-color: var(--accent-signal-color);
 }

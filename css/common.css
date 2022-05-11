@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:wght@400;700&display=swap');
-
+ 
 :root {
   font-family: 'Bebas Neue', sans-serif;
   --light-color: #FFFFFF;
@@ -12,7 +12,8 @@
 	--gray-color:#717474;
 }
 
-.base__container {
+/*.base__container */
+[class*="__container"] {
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
