@@ -137,24 +137,6 @@
     transform: rotate(45deg);
   }
 
-@media (min-width: 990px) {
-    .header-contacts {
-        display: block;
-    }
-    .header__h1 {
-        font-size: 124px;
-    }
-    .header-links {
-        display: block;
-    }
-    .header-socials {
-        display: block;
-    }
-    .navigation-burger {
-        display: none;
-      }
-}
-
 .header__social {
     background-color: var(--light-color);
     width: 30px;
@@ -171,10 +153,30 @@
     background-image: url(../img/backgrounds/niger-1.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    min-height: 720px;
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+@media (min-width: 990px) {
+    .header-contacts {
+        display: block;
+    }
+    .header__h1 {
+        font-size: 124px;
+    }
+    .header-links {
+        display: block;
+    }
+    .header-socials {
+        display: block;
+    }
+    .navigation-burger {
+        display: none;
+      }
+    .header-niger {
+        height: 720px;
+    }
 }
 
 .aspire__container {
