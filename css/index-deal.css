@@ -1,73 +1,94 @@
 .deal__container{
     display: flex;
-    height: 680px;
-    padding: 55px 0 0 0;
 }
 .deal__content{ 
     background-color: var(--dark-color);
     flex: 0 1 50%;
-    padding: 110px 160px 170px 210px;
+    padding: 160px 160px 150px 103px;
 }
 .deal__title{ 
-    font-size: 87px;
+    font-size: 124px;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
     color:var(--light-color);
     font-weight: 400;
     max-width: 462px;
     line-height: 1;
+    padding: 0 0 20px 0;
+}
+.title-dot{ 
+    color: var(--accent-text-color);
 }
 .deal__text-price{ 
-    font-size: 10px;
+    font-size: 16px;
     color:var(--light-color);
     text-transform: uppercase;
-    line-height: 27.2px;
-    font-family:"PT+Sans",sans-serif;
-}
-.deal__price{ 
-    color: var(--accent-text-color);
-    font-size: 28px;
-    line-height: 71px;
     font-weight: 700;
-    font-family:"PT+Sans",sans-serif;
+    line-height: 27.2px;
+    padding: 0 0 25px 0;
+    font-family:"PT Sans", sans-serif;
+}
+.deal-price{ 
+    color: var(--accent-text-color);
+    font-size: 42px;
+    line-height: 71px;
+    padding: 0 5px 0 0;
 }
 .deal__crossed-out{ 
-    font-size: 16px;
-    font-family:"PT+Sans",sans-serif;
+    font-size: 23px;
 }
 .deal__text{ 
-    font-size: 13px;
+    font-size: 20px;
     color: var(--light-color);
-    line-height: 20px;
-    padding: 0 0 30px 0;
+    line-height: 30px;
     font-weight: 500;
-    font-family:"PT+Sans",sans-serif;
+    padding: 0 0 47px 0;
+    font-family:"PT Sans", sans-serif;
 }
 .deal__link{ 
-    font-size: 11px;
+    font-size: 15px;
     line-height: 19px;
     font-weight: 700;
     text-decoration: none;
     color: var(--light-color);
     display: inline-block;
-    padding-bottom: 30px;
-    font-family:"PT+Sans",sans-serif;
+    padding: 0 0 43px 0;
+    font-family:"PT Sans", sans-serif;
 }
-/* .deal__link span{ 
-    background: url(icons/Arrow.svg) right no-repeat;
-    padding: 0 20px 0 0;
-} */
+.deal-arrow{ 
+    background: url(../img/deal-of-the-month/Arrow.svg) right no-repeat;
+    padding: 0 25px 0 0;
+}
 .deal__countdown{ 
     display: flex;
     padding: 0 20px 0 0;
-    font-family:"PT+Sans",sans-serif;
-}
-.countdown:not(:last-child){ 
-    margin: 0 20px 0 0;
 }
 .countdown{ 
-    border: 1px solid var(--light-color);
-    padding: 10px;
+    border: 1px solid #7f7e7e;
+    padding: 19px 23px;
+    border-radius: 6px;
+}
+.countdown:not(:last-child){ 
+    margin: 0 27px 0 0;
+}
+.countdown:first-child{ 
+    padding:22px 31px;
+}
+.countdown:nth-child(2){ 
+    padding:17px 29px;
+}
+.item{ 
+    color:var(--light-color);
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+.count{ 
+    color: var(--light-color);
+    font-size: 14px;
+    text-align: center;
+    opacity:50%;
+    font-family:"PT Sans", sans-serif;
 }
 .deal__image {
     flex: 0 1 50%;
@@ -76,6 +97,6 @@
 .deal__image img{ 
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center calc(50% + 48px)
+    /* object-fit: cover; */
+    /* object-position: center calc(50% + 10px) */
 }
