@@ -1,10 +1,12 @@
 .deal__container{
     display: flex;
+    background-color: var(--dark-color);
 }
 .deal__content{ 
-    background-color: var(--dark-color);
-    flex: 0 1 50%;
-    padding: 160px 160px 150px 103px;
+    width: 100%;
+    max-width: 660px;
+    margin: auto auto auto 0;
+    padding: 40px 15px;
 }
 .deal__title{ 
     font-size: 124px;
@@ -62,6 +64,7 @@
 .deal__countdown{ 
     display: flex;
     padding: 0 20px 0 0;
+    flex-wrap: wrap;
 }
 .countdown{ 
     border: 1px solid #7f7e7e;
