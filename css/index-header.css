@@ -207,18 +207,12 @@
     padding-bottom: 40px;
 }
 
-.header__link-button {
+div.aspire__container > .base__button {
     background-color: var(--accent-signal-color);
-    padding: 16px 32px;
     color: var(--light-color);
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: 0.5s;
 }
 
-.header__link-button:hover {
+div.aspire__container > .base__button:hover {
     background-color: var(--dark-color);
     transition: 0.5s;
 }
