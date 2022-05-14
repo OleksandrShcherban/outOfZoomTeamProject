@@ -84,6 +84,8 @@ border-bottom: 1px solid #a7a7;
 .shop__list {
 	display: flex;
 	justify-content:center;
+	/*padding: 0px 0px 20px 0px;*/
+
 }
 .shop__list li{
 font-size: 16px;
@@ -113,7 +115,7 @@ background-color: var(--accent-signal-color);
 /* ================================================================ */
 .shop__items {
 }
-.shop-about {
+.shop__item-women {
 display: inline-block;
 padding: 0px 10px;
 }
@@ -124,7 +126,7 @@ padding: 0px 10px;
 }
 
 @media (min-width: 768px ){
-	.shop-about {
+	.shop__item-women {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -138,27 +140,28 @@ padding: 0px 10px;
 	}
 }
 
+
 @media (min-width: 992px){
-	.shop-about {
+	.shop__item-women {
 		display: flex;
 		flex-wrap: nowrap;
 	}
 	.card{
 		flex: 0 0 33.333%;
-		padding: 0px 25px 0px 0px;
+		padding: 0px 10px 0px 0px;
 	}
 	.card:last-child{
 		flex: 0 1 33.333%;
 	}
 }
-.shop__item-men, .shop__item-shoes{
-display: none;
-}
+
 
 .card__img {
+	/*max-width: 100%;*/
 	margin: 0px 0px 10px 0px;
 }
 .block-img img{
+	/*max-width: 100%;*/
 
 }
 .card__img{
@@ -167,6 +170,7 @@ display: none;
 .card__img img{
 	max-width: 100%;
 
+	/*object-fit:cover;*/
 }
 
 .card__text {
@@ -175,9 +179,6 @@ display: none;
 	color:var(--primary-text-color);	
 	text-transform: capitalize;
 	margin: 0px 0px 30px 0px;
-}
-.card__text a:hover {
-	text-decoration: underline;
 }
 .card__price {
 	font-size: 18px;
