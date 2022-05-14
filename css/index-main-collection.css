@@ -66,8 +66,13 @@
 }
 
 .text__subtitle {
+<<<<<<< HEAD
 	font-family: "PT Sans";
 	color: var(--gray-color);
+=======
+	font-family: "PT Sans", sans-serif;
+	color: var(--primary-text-color);
+>>>>>>> d22996fc463618b11b499449142f97b14bb75446
 	font-size: 20px;
 }
 /* ===================================================== */
@@ -175,8 +180,8 @@ padding: 0px 10px;
 
 .card__text {
 	font-size: 18px;
-	font-family: "PT Sans";
-	color:var(--gray-color);	
+	font-family: "PT Sans", sans-serif;
+	color:var(--primary-text-color);	
 	text-transform: capitalize;
 	margin: 0px 0px 30px 0px;
 }

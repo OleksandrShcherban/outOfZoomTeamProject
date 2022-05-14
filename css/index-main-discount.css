@@ -2,7 +2,33 @@
     text-transform: uppercase;
     font-size: 62px;
     font-weight: 400;
-    color: var(--light-text-color);
+    color: var(--light-color);
+}
+
+.discount__link-button {
+    background-color: var(--light-color);
+    padding: 16px 32px;
+    color: var(--dark-color);
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.discount__link-button:hover {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    transition: 0.3s;
+}
+
+.discount-niger {
+    background-image: url(../img/backgrounds/niger-2.png);
+    background-size: cover;
+    background-position: 40% 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 660px) {
@@ -15,27 +41,20 @@
     .discount__h1 {
         font-size: 124px;
     }
+    .discount-niger {
+        height: 720px;
+    }
 }
 
-.discount__h1-red {
-    color: var(--red-text-color);
-    background-color: rgba(0,0,0,0);
+
+.month__container {
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.discount__link-button {
-    background-color: #FFFFFF;
-    padding: 16px 32px;
-    color: var(--black-color);
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.discount-niger {
-    background-image: url(../img/backgrounds/niger-2.png);
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 100%;
-    padding: 210px 50% 210px 40px;
+.discount__h4 {
+    color: var(--tertiary-text-color);
+    font-size: 24px;
+    font-weight: 400;
 }
