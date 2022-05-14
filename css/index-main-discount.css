@@ -5,21 +5,15 @@
     color: var(--light-color);
 }
 
-.discount__link-button {
+div.month__container > .base__button {
     background-color: var(--light-color);
-    padding: 16px 32px;
     color: var(--dark-color);
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: 0.3s;
 }
 
-.discount__link-button:hover {
+div.month__container > .base__button:hover {
     background-color: var(--dark-color);
     color: var(--light-color);
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .discount-niger {
