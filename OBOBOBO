@@ -1,0 +1,843 @@
+[33mcommit 37eac607ffb300d7f7f4521c688d02947ad8ad9a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2152a78 a3d4973
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 14 18:39:55 2022 +0300
+
+    added pull common
+
+[33mcommit 2152a78f2e01de0d32d0e74726ec2a41e5b85c9e[m
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 14 18:36:08 2022 +0300
+
+    dobavleno
+
+[33mcommit a3d4973ed3f74203039b26222f67c9470001a401[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sat May 14 15:26:30 2022 +0000
+
+    change base__button in header, sale, discount
+
+[33mcommit ca5fbffbcc6fec95d38283799bab113f3d6c9823[m
+Merge: 7aa99f0 d22996f
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 14 17:37:24 2022 +0300
+
+    modified: sait
+
+[33mcommit 7aa99f0c890de1c743e91d7918beb6af4d821da6[m
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 14 17:30:49 2022 +0300
+
+    modified: css/index-main-collection
+
+[33mcommit d22996fc463618b11b499449142f97b14bb75446[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sat May 14 14:26:06 2022 +0000
+
+    change color in .sale__card-price and change size img in index-main-sale.css
+
+[33mcommit 7ef88d7caff8dad0dec3bb7aa05e2018ad760aa7[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 13 09:59:58 2022 +0000
+
+    Menu active underlining added and other minor corrections
+
+[33mcommit 684b708df2120cabe4aa5e483a37f9cbaeb80daf[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Thu May 12 19:16:23 2022 +0000
+
+    remove tag body
+
+[33mcommit 7966992f2ee14dd720f213f935305333ae941df7[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 12 19:01:39 2022 +0000
+
+    About us block adaptized for mobile
+
+[33mcommit 8dba315a927f4244bc475f9ed1c0fc48bf090955[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 12 18:29:08 2022 +0000
+
+    Deal of the month counter minor changes for mobile version
+
+[33mcommit 1707bd049fb1a3f174e799d2f625911c0bf46408[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 12 17:41:21 2022 +0000
+
+    Burger menu activated
+
+[33mcommit 43be95c5496f8e3010c91933b2ed1913b37f848d[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 12 15:12:19 2022 +0000
+
+    Menu adaptized for mobile
+
+[33mcommit 2f39da2187bf9c24974409b6f8eb80d2d897c7f0[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 12 14:42:40 2022 +0000
+
+    Burger-menu js added
+
+[33mcommit a8a43a7b39be544942f7bcff7dc1d246c9a1e6bc[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Thu May 12 11:27:07 2022 +0000
+
+    modifiing
+
+[33mcommit d521ac9c783463ebf2d35add3cdc32aea7e43639[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Wed May 11 18:25:06 2022 +0000
+
+    --gray-color changed by --primary-text-color
+
+[33mcommit edf3d3c1b6fcee13a8a049cd1b6f6126fc65e0c6[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Wed May 11 18:19:28 2022 +0000
+
+    Some hovers added
+
+[33mcommit b4efe07cc2222db756a768e016d4486015661b4f[m
+Merge: 571c403 db0b98a
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Wed May 11 16:36:35 2022 +0000
+
+    BR changed by margins
+
+[33mcommit 571c40383d3a4dddd4ec6049580b686b42e9be57[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Wed May 11 16:32:46 2022 +0000
+
+    BR changed by margins
+
+[33mcommit db0b98ab0b29b5bd98fedbc9cc11942c1d708bbb[m
+Merge: 3a44116 c3d3fa2
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Wed May 11 16:01:33 2022 +0000
+
+    second_section of footer
+
+[33mcommit 3a441160a23116f2661e27d8728fc51c3bda3065[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Wed May 11 15:54:26 2022 +0000
+
+    first_section of footer
+
+[33mcommit c3d3fa21d352384b7e2dc18072d9dd7e9457eff9[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Wed May 11 14:46:17 2022 +0000
+
+    debug hrml error
+
+[33mcommit fd2a1dd68612c82fdb9796320168ce7d527b0b6e[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Wed May 11 13:53:31 2022 +0000
+
+    refresh first-order text
+
+[33mcommit f5f0a3ad50cbb65ce79390a7e3a7ed2bb49fab6e[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Wed May 11 13:26:50 2022 +0000
+
+    Base container check
+
+[33mcommit fd7e3a2dd43c572058a5dc5d11fcb0660a262a63[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Wed May 11 13:14:12 2022 +0000
+
+    added background-image
+
+[33mcommit 2010948d8734e24ad53efedc00153e79ecf8c477[m
+Merge: c77d752 1c46831
+Author: yura <ukoval400@gmail.com>
+Date:   Wed May 11 15:32:33 2022 +0300
+
+    modified common added style card
+
+[33mcommit c77d75233f07f73e9d8aa3529a75d4217c988456[m
+Author: yura <ukoval400@gmail.com>
+Date:   Wed May 11 15:27:06 2022 +0300
+
+     modified:   css/common.css
+
+[33mcommit 1c46831c31c402c69b658a4dcb1f04aba94c64cc[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Wed May 11 12:19:21 2022 +0000
+
+    changed classes in dots after h2 in all section
+
+[33mcommit e258573ffae60f1f976f3ea12b7ffebdfee0a60c[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Wed May 11 11:57:13 2022 +0000
+
+    changed tag <article> on <div> in sale saction
+
+[33mcommit 198afb18b38a6d0a2e0d122b8e4fb375ceddd1a3[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Wed May 11 08:49:43 2022 +0000
+
+    fixed my trouble
+
+[33mcommit b91ef31f1be163d71b3d0c1d0d314964c2d70fd7[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Tue May 10 21:40:23 2022 +0000
+
+    added some style to deal
+
+[33mcommit d3e54e94d6ce29c6139c28277e3fb95894b0c3a6[m
+Merge: 402138c 5380045
+Author: yura <ukoval400@gmail.com>
+Date:   Tue May 10 23:09:32 2022 +0300
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 5380045e3be3ec96ed99531a9f21401316582adb[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Tue May 10 19:47:56 2022 +0000
+
+    About us grids added
+
+[33mcommit b17fadb2d4b4c1570cb556dddf7c60134530fa94[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Tue May 10 17:38:02 2022 +0000
+
+    Minor corrections to header styles
+
+[33mcommit 402138c99f4ed8effba3bdba96233ab15eb27c55[m
+Merge: 56246a2 1e7e438
+Author: yura <ukoval400@gmail.com>
+Date:   Tue May 10 19:53:59 2022 +0300
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 1e7e438027ce6790d4d6303faab2c494f36412d3[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Tue May 10 16:52:31 2022 +0000
+
+    add flex wrap in index-main-sale.css
+
+[33mcommit 56246a2b7d0f60bb50327c944c8a17ddb68277ac[m
+Merge: 11fc0bc 147d17e
+Author: yura <ukoval400@gmail.com>
+Date:   Tue May 10 18:47:16 2022 +0300
+
+    upgrat
+
+[33mcommit 147d17ec5dcc7fe0bc70c4b29ceb0ce65a363154[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Tue May 10 14:28:38 2022 +0000
+
+    Header classes edited with grids
+
+[33mcommit 294fad2399d7c3920090e8252904ef705401f02c[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Mon May 9 16:56:41 2022 +0000
+
+    connect index-null.css in index.css
+
+[33mcommit 2c47edbf398d79c13a5ba8b0df1cd746e9df8108[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Mon May 9 16:52:29 2022 +0000
+
+    delete * in common.css and add * in index-null.css
+
+[33mcommit d973716ad334f2b2217648cd2628235999436a80[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Mon May 9 16:46:05 2022 +0000
+
+    delete font-family Bebas Neue in header, about, choose, collection, discount
+
+[33mcommit 29d6da5cf58ebb4f51014143f930ba590b4aaf00[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Mon May 9 16:36:51 2022 +0000
+
+    add font-family Benas Neue in root
+
+[33mcommit ca40c510267d9a50b354bce3d1107d09b30d7253[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Mon May 9 15:30:01 2022 +0000
+
+    rename .css: index-main-sale.css, index-main-choose.css
+
+[33mcommit a19aa5bf2a71a0d6fec326a3405fd77ee270d137[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Mon May 9 15:24:52 2022 +0000
+
+    addedd background and background color
+
+[33mcommit eacdabb32f70b7d3c2c735d536a7d36df4540d7a[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Mon May 9 14:00:45 2022 +0000
+
+    add css to fooer
+
+[33mcommit 0a3bbee3b8da6a25674962e89206f28c18f8db40[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Mon May 9 10:02:20 2022 +0000
+
+    Discount classes corrections
+
+[33mcommit 23b1aeff0b6621c09ae52568cac064b9bdc434cc[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Mon May 9 09:47:39 2022 +0000
+
+    Discount section added
+
+[33mcommit 11fc0bc8142f5d30197ba6bd36c2a20d0ec5ba80[m
+Merge: acf3d5b 7a04647
+Author: yura <ukoval400@gmail.com>
+Date:   Mon May 9 12:25:14 2022 +0300
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit acf3d5b0502bcd54785257a359d471471e2b01e9[m
+Author: yura <ukoval400@gmail.com>
+Date:   Mon May 9 12:25:10 2022 +0300
+
+    _
+
+[33mcommit 7a04647d1696ad6cf491c197d62e411cc8e0323b[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Mon May 9 09:22:54 2022 +0000
+
+    classes edited as per BEM
+
+[33mcommit 47d6ea74bc984c159275ebfe963b1f7e7e1c8658[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Mon May 9 07:47:27 2022 +0000
+
+    Uppercase tags changed by lowercase
+
+[33mcommit 4de09b0a80727e4901725cd030d84ace3c115726[m
+Merge: 214484d 93c38fc
+Author: yura <ukoval400@gmail.com>
+Date:   Sun May 8 22:08:40 2022 +0300
+
+    modified css and index
+
+[33mcommit 214484d4d9fb367143931f81ab99c24264072df9[m
+Merge: cb297c0 fc01784
+Author: yura <ukoval400@gmail.com>
+Date:   Sun May 8 22:07:46 2022 +0300
+
+    modified css and index
+
+[33mcommit 93c38fcd32fdc42ef80b6df55fef0ba573a557c6[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Sun May 8 18:20:41 2022 +0000
+
+    Added deal html
+
+[33mcommit cb297c01d48d519a13cc56bdb44921894dddd3dc[m
+Author: yura <ukoval400@gmail.com>
+Date:   Sun May 8 21:19:16 2022 +0300
+
+    modified
+
+[33mcommit fc01784604d28b736e4619add046ad12cafa3b06[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 17:02:08 2022 +0000
+
+    delete flex-wrap in .sale__cards
+
+[33mcommit bd257f33a1ca8ddfb25391fd16ad0e70c75243ae[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 17:00:41 2022 +0000
+
+    connect sale.css
+
+[33mcommit 30f847d7593bf127893ca4a1a362a3d318d7174c[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 16:57:33 2022 +0000
+
+    fixed section .sale
+
+[33mcommit 22e1d5c3b4656a267abe7171a2d4185c4921cd02[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 16:55:55 2022 +0000
+
+    add sale.css
+
+[33mcommit 9fb89d41f5bff01b5245b7fd99422b9ebe1325af[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 16:54:16 2022 +0000
+
+    add width in .base__subheader, fixed border in flex-box__item
+
+[33mcommit fc35b8a7c433e53e7aabd795e91d83fddd8d4ef2[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sun May 8 16:50:05 2022 +0000
+
+    HTML validator warnings removed
+
+[33mcommit cce90ed95f4ab5e1a34883c931bc84d4d0cd4652[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 16:16:21 2022 +0000
+
+    add style in .sale
+
+[33mcommit 682a95bfb836b172fe323c1c71140271a532ae6f[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 16:14:12 2022 +0000
+
+    add justify-content in .choose-us__flex-box
+
+[33mcommit 6d34dba9d4ec61e32653cf1baea8b3ca97af360e[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 16:00:28 2022 +0000
+
+    add text-align in .base__subheader
+
+[33mcommit 6fcbdbae3b5eab8c417641a255768b3d7402f679[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 15:51:23 2022 +0000
+
+    fixed .choose-us__flex-box
+
+[33mcommit 5a157b5b2e1900d237564989f4e791deb03de5e7[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 15:44:48 2022 +0000
+
+    enter why-choose-us.css
+
+[33mcommit 593b4626975adf8213447534ff9cd14c6475bb0a[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 15:42:54 2022 +0000
+
+    fixed img why-choose-us
+
+[33mcommit edcb7dcbca65409ba2ee31fe435e6b612c92500c[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 15:40:27 2022 +0000
+
+    fixed section choose-us
+
+[33mcommit f8ec1b69ce1f58be23db09e859286e90532306d0[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Sun May 8 15:38:20 2022 +0000
+
+    add why-choose-us.css
+
+[33mcommit 511633a69c0c6057b6a7954e371f1a22a84f4d1f[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sun May 8 12:47:15 2022 +0000
+
+    Base container applied
+
+[33mcommit 5df07702a3e2a9e271da8a4b7a68cd8715ad6af4[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sun May 8 12:10:53 2022 +0000
+
+    Header h6 class corrected
+
+[33mcommit 2ba2f34c13a0e5161702a9d4835ae672e30559f8[m
+Merge: 67db351 2260486
+Author: yura <ukoval400@gmail.com>
+Date:   Sun May 8 14:22:51 2022 +0300
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 67db3512532dde6ec781ff976e2b039fb71afc1a[m
+Author: yura <ukoval400@gmail.com>
+Date:   Sun May 8 14:16:28 2022 +0300
+
+    udated css
+
+[33mcommit 22604867f6c2ca6e43cb8ba4519690fe2c0260c2[m
+Merge: 077963b 17ef27c
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 15:41:01 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 077963b7eb3e0526becea12c35dc08401db22718[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 15:40:39 2022 +0000
+
+    Hometask for monday completed
+
+[33mcommit 17ef27c557fd0deaa9274f1d743aa442dc354bc3[m
+Author: VitaliiNadych <nadicv16@gmail.com>
+Date:   Sat May 7 15:12:05 2022 +0000
+
+    Added comment
+
+[33mcommit 4e7e8b49768d8940e5f59ed21700bcdc2be1dacc[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 14:39:04 2022 +0000
+
+    null css disactivated
+
+[33mcommit 94395bff9c9ccf7f548b8178c7c4ae8733854138[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 12:01:28 2022 +0000
+
+    Index-main.css renamed into index-main-about.css
+
+[33mcommit 7fd73a670d394fa388d7e4e2a717f19b381edfde[m
+Merge: 8677e11 549b088
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 11:44:32 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 8677e11322d4e044dd3ed43ebe3237233babd17e[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 11:44:02 2022 +0000
+
+    About us classes applied
+
+[33mcommit 549b0883231eeb1d180ede19bc2b5d0e0719a91e[m
+Merge: 6090316 c03392e
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 7 14:06:30 2022 +0300
+
+    css null
+
+[33mcommit 60903160e5345ba427ffe59541e39eed3c3354a1[m
+Merge: 4140c41 b033279
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 7 14:04:24 2022 +0300
+
+    css null
+
+[33mcommit c03392e30f160b41bb26a0428da3e428486bb595[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 11:03:32 2022 +0000
+
+    Header classes edited
+
+[33mcommit 3997408866cff159ade8be3ba3289f4f1e6952b5[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 10:05:11 2022 +0000
+
+    White text resolved
+
+[33mcommit 6bd57231ac19337015e9e508b60b475bd704541c[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 10:03:17 2022 +0000
+
+    Navigation added
+
+[33mcommit d1eb30e8b8dac40ce31f65de343c57b4eefcd3c9[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 09:56:21 2022 +0000
+
+    Some header css edited
+
+[33mcommit 4140c4134cd5ec03e5dd31b2b31e8a0bc0822080[m
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 7 12:29:35 2022 +0300
+
+    upgrade css
+
+[33mcommit b0332793768b4cd052d90f90729945148a3d461a[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Sat May 7 09:06:08 2022 +0000
+
+    Common css with fonts and colors added. Icon css added
+
+[33mcommit c6174986d707d7f9f742da96a18c880025867c31[m
+Author: yura <ukoval400@gmail.com>
+Date:   Sat May 7 10:46:49 2022 +0300
+
+    new branch
+
+[33mcommit 9ef3881201568f9ad239180d81fe18b656444273[m
+Merge: 796a430 e4db46c
+Author: yura <ukoval400@gmail.com>
+Date:   Fri May 6 20:52:42 2022 +0300
+
+    upgraid main html
+
+[33mcommit 796a430bd6e086f9e36b0e01663f1689d918ab9d[m
+Author: yura <ukoval400@gmail.com>
+Date:   Fri May 6 20:23:13 2022 +0300
+
+    css null
+
+[33mcommit e4db46cb9b9c887615cdbc241f681e0f1cf48d8e[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 16:17:02 2022 +0000
+
+    add section why-choose-us and img-svg
+
+[33mcommit 7c165cc183eaf79a4b2e065fdd5b01a053e30291[m
+Merge: 9f47623 42862e6
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 15:49:31 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 9f47623572123a0c3b6a60cfc0ee0a4774151b13[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 15:49:08 2022 +0000
+
+    Free Shipping SVG added
+
+[33mcommit 42862e6f1bc8f0aa436e247f7d4f78ed178f3ed0[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 15:09:37 2022 +0000
+
+    add base class
+
+[33mcommit 1a183692ce5ba4e6d43ed51935338c230a2e013c[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 15:05:25 2022 +0000
+
+    add base classes
+
+[33mcommit c078e8c74049403309fdfeddb7b76170c194c769[m
+Merge: ff4dc7a 5d595eb
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 14:44:00 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit ff4dc7a2eb8cf3378118dcfbced65983d70f6020[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 14:38:59 2022 +0000
+
+    add h6 in article
+
+[33mcommit 5d595ebb092f5f6954fa3bac97c8ec823b9457ae[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 14:37:50 2022 +0000
+
+    Corrections after validator
+
+[33mcommit a3548d4358081c07e58abd6695ddc0138ece8901[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 14:03:14 2022 +0000
+
+    rename classes
+
+[33mcommit 51f636dbd07464eae174f70c68f6b23ca67d36ea[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 13:47:15 2022 +0000
+
+    Repaired header
+
+[33mcommit f58377b49eeff57fb8be386e72c54dceb1c8cde4[m
+Merge: db92280 600fe46
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 13:02:18 2022 +0000
+
+    add section mid-seeason-sale
+
+[33mcommit db922804a2b813afc814d301b35825b21b2dedf4[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Fri May 6 12:07:18 2022 +0000
+
+    add foto
+
+[33mcommit 600fe46a6fa2cc11167189e2df4d421bcf691077[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 11:23:57 2022 +0000
+
+    completed third footer section
+
+[33mcommit 783b1152e788b6be10dbcb94dfe39b8501ec50cd[m
+Merge: f53468f eafb508
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 11:15:24 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit f53468fff9d2e1687860c8b55bde50df202b4d1f[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 11:15:13 2022 +0000
+
+    completed second footer section
+
+[33mcommit eafb508bcd08ed3d9619adb276032f827e7a5847[m
+Merge: 5cac1dc 1459c36
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 10:46:35 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 5cac1dc1671ef6ea2198b4ccc2fab6ca5e7b35f7[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 10:45:59 2022 +0000
+
+    About us completed
+
+[33mcommit 1459c364a57092243062be8151607f64a05e7fd4[m
+Merge: dd2359d ebb94ea
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 10:29:56 2022 +0000
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit dd2359da3b894336d61917041251360206fc0f57[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 10:29:44 2022 +0000
+
+    completed form
+
+[33mcommit ebb94ea385fc156126357aaaa5e381ea898d8823[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Fri May 6 10:21:21 2022 +0000
+
+    About us taken by Oleksandr Aleks
+
+[33mcommit c5006d2277f47112cccf7a1e53a7ed7984c6d255[m
+Merge: 6b7dca3 8ea08e5
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 10:01:43 2022 +0000
+
+    footer containers
+
+[33mcommit 6b7dca3fba67fcbb66cbe3f05fe0ab0d3da889c1[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 09:39:31 2022 +0000
+
+    second footer commit
+
+[33mcommit e7a37820e42ca3b53e69bfef3cf7a873b7c16aef[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Fri May 6 08:56:56 2022 +0000
+
+    footer first commit
+
+[33mcommit 8ea08e5a90019098231488961f864aaf3910032a[m
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 20:27:38 2022 +0300
+
+    css upgraid
+
+[33mcommit 1237d94720f8b6f65936e3ee8f0284c95c1d47cd[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 17:08:20 2022 +0000
+
+    Recommited header
+
+[33mcommit c0ab1ad623a3c5674614e84414d9d5ad0fdc5dc2[m
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 20:00:39 2022 +0300
+
+    css zone
+
+[33mcommit 131c672989d90b7181ffd668959b0029b21f4234[m
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 19:51:28 2022 +0300
+
+     updated css
+
+[33mcommit 064a6f3cf6a70ba4f9c622024ba82ecf41688645[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 16:13:14 2022 +0000
+
+    Header HTML part completed
+
+[33mcommit 5171629c08fdef57850e0b674484f98587dbff97[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 16:02:53 2022 +0000
+
+    header edited
+
+[33mcommit 9f440ead326b5984faf5d2651f131072ab8f9233[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 15:37:33 2022 +0000
+
+    Images moved
+
+[33mcommit 665c7b17dc1342b0828b4a2f45eee978d4a78a5a[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 15:35:00 2022 +0000
+
+    Added images
+
+[33mcommit de58ddbaa0d9921d0f1ef881baebae4aa05e55d2[m
+Merge: 6b67ba3 88b3684
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 16:23:02 2022 +0300
+
+    Merge branch 'main' of https://github.com/OleksandrShcherban/outOfZoomTeamProject
+
+[33mcommit 6b67ba3b971684b319c66870cb2b81a515d6ccc4[m
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 16:22:42 2022 +0300
+
+     updated cod html
+
+[33mcommit 88b3684695b6ba2838ff1e11c36426edda12d5b7[m
+Merge: e29fc19 b451358
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 13:03:06 2022 +0000
+
+    Conflicts resolved
+
+[33mcommit e29fc191481002ebb418d2ca17009fdc389e2459[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 13:01:11 2022 +0000
+
+    Conflicts resolved
+
+[33mcommit b4513587cc9e43453760fbb4ff9ed584132c2f22[m
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 15:55:38 2022 +0300
+
+    added folder img updated html
+
+[33mcommit 37124cb9719c9a045d6e5c2710e498bab5ceb00f[m
+Merge: eaf9a00 d13580e
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 15:15:00 2022 +0300
+
+    update html
+
+[33mcommit eaf9a0027c5e66d709a2bd56ba3de754e56a9116[m
+Author: yura <ukoval400@gmail.com>
+Date:   Thu May 5 15:11:09 2022 +0300
+
+    first commit
+
+[33mcommit d13580ef5ce5a5c7339f043e1f4375342bd00c7d[m
+Author: OlhaBond2021 <olgabondarenko.ua.kh@gmail.com>
+Date:   Thu May 5 11:57:16 2022 +0000
+
+    add Olga Bondarenko in comments
+
+[33mcommit 7c92771b3c4a0bdf40efa39373a4074d495f3ad2[m
+Merge: d2cf84a 6d68d77
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Thu May 5 11:45:52 2022 +0000
+
+    Footer code
+
+[33mcommit d2cf84ad372046cc04131b3ec5b7bc5a251768ec[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Thu May 5 11:35:33 2022 +0000
+
+    first commit footer
+
+[33mcommit 6d68d772cf8aca67a648042349c7ce63a092ec01[m
+Author: koval23 <ukoval400@gmail.com>
+Date:   Thu May 5 11:24:32 2022 +0000
+
+    Start of Main Collection Koval
+
+[33mcommit 86bf1f3182b965f274ec9a61284546cf19821b26[m
+Author: Хваль Андрей <andrey.khval.kr@gmail.com>
+Date:   Thu May 5 11:16:19 2022 +0000
+
+    start of Khval code
+
+[33mcommit 98fa3d2ec866252628e7df119e337ab6b009ca68[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 11:03:57 2022 +0000
+
+    Added limits o Sections
+
+[33mcommit 5b19747b05b565b85e891261363fafc5fe97909f[m
+Author: OleksandrShcherban <o.shcherban@gmail.com>
+Date:   Thu May 5 10:46:44 2022 +0000
+
+    Added limits of Oleksandr ALEKS code
+
+[33mcommit 65c12cfb73592ab7945403003f04986ad6ebd368[m
+Author: OleksandrShcherban <102971653+OleksandrShcherban@users.noreply.github.com>
+Date:   Thu May 5 11:25:33 2022 +0300
+
+    Create index.html
