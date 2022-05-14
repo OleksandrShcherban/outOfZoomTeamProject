@@ -11,6 +11,7 @@
   --secondary-text-color: rgba(33, 33, 33, 0.5);
   --tertiary-text-color: rgba(255, 255, 255, 0.6);
   --line: #e0e0e0;
+  --in-stock: #61a854;
 }
 
 img {
@@ -23,19 +24,6 @@ a {
   text-decoration: none;
 }
 .base__container {
-<<<<<<< HEAD
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-
-  .base__span {
-    color: var(--accent-text-color);
-}
-
- 
-=======
   width: 100%;
   max-width: 1320px;
   margin: 0 auto;
@@ -56,4 +44,3 @@ a {
   text-decoration: none;
   transition: 0.5s;
 }
->>>>>>> a3d4973ed3f74203039b26222f67c9470001a401

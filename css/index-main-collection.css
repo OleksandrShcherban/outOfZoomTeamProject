@@ -201,3 +201,128 @@ display: none;
 .card__link:hover{
 background-color:var(--accent-signal-color);
 }
+/* =======index========== */
+.product {
+	padding: 80px 30px;
+	font-family: "PT Sans",sans-serif;
+}
+.base__container {
+}
+.product__homepage {
+	color: var(--accent-signal-color);
+}
+.product__content {
+
+}
+
+@media (min-width: 320px) {
+	.product__content {
+display: inline-block;	
+}
+}
+
+@media (min-width: 767px){
+	.product__content {
+display: flex;
+}
+}
+.product__slider {
+	margin: 0px 0px 25px 0px;
+}
+@media (min-width: 767px){
+	.product__slider {
+		flex: 1 1 50%;
+}
+}
+.product__about{
+
+}
+@media (min-width: 767px){
+	.product__about {
+		flex: 1 1 50%;
+}
+}
+.product__title {
+}
+.product__stock {
+	color: var(--in-stock);
+	font-size: 16px;
+	line-height: 1.7;
+	font-weight: 400;
+}
+.product__sub-title {
+	font-size: 22px;
+	line-height: 1.36;
+	color: var(--dark-color);
+	margin: 0px 0px 15px 0px;
+	font-weight: 400;
+	font-family: "Bebas Neue";
+}
+.product__code {
+	font-size: 14px;
+	line-height: 1.8;
+	font-weight: 100;
+	margin: 0px 0px 25px 0px;
+}
+.product__price {
+	font-size: 18px;
+	line-height: 1.56;
+	font-weight: 600;
+	color: var(--primary-text-color);
+	border-bottom: 2px solid var(--primary-text-color);
+	padding: 0px 0px 50px 0px;
+	margin: 0px 0px 20px 0px;
+
+}
+.product__button {
+}
+.button {
+	display: flex;
+	align-items: center;
+	margin: 0px 0px 30px 0px;
+}
+.button__amount {
+
+}
+@media (min-width: 320px) {
+	.button__amount {
+		height: 38px;
+		min-width: 55px;
+		border: 1px solid var(--dark-color);
+		margin: 0px 5px 0px 0px;
+		border-radius: 3px;
+	}
+}
+.button-link {
+	padding: 10px 0px 10px 0px;
+	flex: 1 1 80%;
+	background-color: var(--accent-signal-color);
+}
+.description-product {
+}
+.description-product__title {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: 600;
+	color: var(--primary-text-color);
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px;
+	position: relative;
+}
+.description-product__title::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	bottom: -10px;
+	left: 0;
+	background-color: var(--accent-signal-color);
+}
+.description-product__text {
+	padding: 20px 0px 0px 0px;
+	border-top: 2px solid var(--dark-color);
+	color: #717474;
+	font-size: 16px;
+	line-height: 1.7;
+}
