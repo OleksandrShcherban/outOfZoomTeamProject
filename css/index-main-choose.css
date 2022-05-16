@@ -12,11 +12,24 @@
 
 .base__h2 {
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 38px;
     font-weight: 400;
     color: var(--black-color);
     margin-bottom: 15px;
 }
+
+@media (min-width: 768px) {
+    .base__h2 {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 991px) {
+    .base__h2 {
+        font-size: 52px;
+    }
+}
+
 
 .base__separator {
     height: 2px;
