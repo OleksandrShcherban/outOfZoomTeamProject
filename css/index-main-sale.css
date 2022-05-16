@@ -9,7 +9,17 @@
 .sale__card-img {
   width: 100%;
   min-width: 272px;
+}
 
+@media (min-width: 480px) {
+  .sale__card, .sale__card-img {
+    max-width: 200px;
+    min-width: auto;
+  }
+
+  .card__media1 {
+    max-width: 767px;
+  }
 }
 
 .sale__card {

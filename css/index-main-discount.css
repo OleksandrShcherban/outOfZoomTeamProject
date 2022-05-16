@@ -45,6 +45,7 @@ div.month__container > .base__button:hover {
     width: 60%;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: auto auto auto 0;
 }
 
 .discount__h4 {
