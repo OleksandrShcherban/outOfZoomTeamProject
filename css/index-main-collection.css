@@ -1,5 +1,6 @@
 /*@media (max-width:0px) {  }*/
 /* ============================= */
+
 .main-collection {
 	padding: 90px 0px 120px 0px;
 
@@ -24,16 +25,7 @@
 .text__title {
 	position: relative;
 }
-.text__title::after{
-	content: "";
-	display:inline-block;
-	width: 6px;
-	height: 6px;
-	bottom: 0;
-	left: 0;
-	background-color: var(--accent-signal-color);
-	margin: 0px 0px 0px 3px;
-}
+
 @media (min-width: 320px) {
 	.text__title {
 	font-size:38px;
@@ -102,7 +94,7 @@ padding: 25px 25px;
 	color: #5e5e5e;
 	transition: 0.5s;
 }
-.shop__link:hover::before {
+.line-red::before {
 content: "";
 position: absolute;
 display: inline-block;
@@ -112,12 +104,21 @@ width: 100%;
 height: 2px;
 background-color: var(--accent-signal-color);
 }
+
 /* ================================================================ */
 .shop__items {
 }
-.shop__item-women {
+
+.hiden{
+display: none;
+}
+
+.shop__item-women,
+.shop__item-men,
+.shop__item-choes{
 display: inline-block;
 padding: 0px 10px;
+
 }
 .card {
 	display: flex;
@@ -126,7 +127,9 @@ padding: 0px 10px;
 }
 
 @media (min-width: 768px ){
-	.shop__item-women {
+.shop__item-women,
+.shop__item-men,
+.shop__item-choes {
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -142,7 +145,9 @@ padding: 0px 10px;
 
 
 @media (min-width: 992px){
-	.shop__item-women {
+.shop__item-women,
+.shop__item-men,
+.shop__item-choes {
 		display: flex;
 		flex-wrap: nowrap;
 	}
@@ -155,22 +160,16 @@ padding: 0px 10px;
 	}
 }
 
-
 .card__img {
-	/*max-width: 100%;*/
 	margin: 0px 0px 10px 0px;
 }
 .block-img img{
-	/*max-width: 100%;*/
-
 }
 .card__img{
 	display: inline-block;
 }
 .card__img img{
 	max-width: 100%;
-
-	/*object-fit:cover;*/
 }
 
 .card__text {
@@ -202,6 +201,9 @@ padding: 0px 10px;
 .card__link:hover{
 background-color:var(--accent-signal-color);
 }
+.hiden{
+	display: none;
+}
 /* =======index========== */
 .product {
 	padding: 80px 30px;
@@ -211,6 +213,7 @@ background-color:var(--accent-signal-color);
 }
 .product__homepage {
 	color: var(--accent-signal-color);
+	margin: 0px 0px 40px 0px;
 }
 .product__content {
 
