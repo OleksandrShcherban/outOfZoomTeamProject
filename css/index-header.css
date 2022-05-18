@@ -208,7 +208,7 @@
 }
 
 div.aspire__container > .base__button {
-    background-color: var(--accent-signal-color);
+    background-color: var(--accent-text-color);
     color: var(--light-color);
 }
 
