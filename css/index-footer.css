@@ -1,31 +1,21 @@
 section.footer__container {
     width: 100%;
     font-family: 'Bebas Neue', sans-serif;
+    
 }
+
 .footer__container__top {
     background-image: url(../img/footer-background.jpg);
     background-size: cover;
     background-position: 45% ;
     width: 100%;
-    padding: 45px 24px;
+    padding: 45px 25px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
-@media (min-width: 767px) {
-    .footer__container__top {
-        display: flex;
-        flex-direction: row;
-    }
-    .container__top__inside__empty {
-        max-width: 33.3%;
-    }
-    .container__top__inside__first-order {
-        
-    }
 
-}
 .container__top__inside__empty {
     margin-bottom: 30px;
 }
@@ -33,12 +23,12 @@ section.footer__container {
 .container__top__inside__first-order {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: space-around; 
     width: 100%;
-    padding: 0px 10px;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
+    padding: 0 20px;
 }
+
 .first-order__inside__icon {
     width: 30px;
     height: 30px;
@@ -66,19 +56,48 @@ section.footer__container {
 }
 .form__email {
     margin: 10px;
-    padding: 15px 26px;
+    padding: 15px 25px;
     min-height: 20px;
     min-width: 270px;
     background-color: var(--line);
 }
 #form__button {
     margin: 10px;
-    padding: 15px 26px;
+    padding: 15px 25px;
     min-height: 20px;
     min-width: 270px;
     background-color: var(--accent-signal-color);
     
 }
+@media (min-width: 768px) {
+    .footer__container__top {
+        display: flex;
+        flex-direction: row;
+        background-position: 45%;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 45px 25px;
+        width: 100%;      
+    }
+    .container__top__inside__empty {
+        max-width: 25%;
+    }
+    .container__top__inside__first-order {
+        max-width: 45%;
+    }
+    .container__top__inside__form {
+        max-width: 30%;
+    }
+    .form__email {
+        min-width: 155px;
+    
+    }
+    #form__button {
+        min-width: 155px;
+        
+    }
+} 
+
 .footer__container__middle {
     border-bottom: 1px var(--line);
     background-color: var(--dark-color);
@@ -87,7 +106,7 @@ section.footer__container {
     flex-direction: column;  
     align-items: center;
     justify-content: space-around;
-    padding: 70px 24px 45px 24px;
+    padding: 70px 25px 45px 25px;
 }
 
 .footer__logo {
@@ -106,7 +125,6 @@ section.footer__container {
     font-weight: 400;
     margin-top: 30px;
     line-height: 27.2px;
-    
     text-align: center;
     font-family: PT sans-serif;
     
@@ -159,6 +177,43 @@ section.footer__container {
 .footer__shop__links {
     margin-bottom: 15px;
 }
+@media (min-width: 768px) {
+    .footer__container__middle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start; 
+        padding-right: 40px;
+        
+    }
+    .footer__logo {
+        margin-right: 30px;
+    }
+    .footer__logo__text {
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .footer__navigation {
+        margin-top: 0;
+        text-align: left;
+    }
+    .footer__shop__container {
+        margin-top: 0;
+        text-align: left;
+
+    }
+
+    .footer__follow-us {
+        margin-top: 0;
+        text-align: right;
+    }
+    .footer__red__line {
+        margin-right: 75%;
+    }
+    .footer__follow-us > .footer__red__line{
+        margin-left: 75%
+    }
+}
 
 
 .footer__container__bottom {
@@ -171,8 +226,16 @@ section.footer__container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
+    padding: 10px 25px;
       
+}
+@media (min-width: 768px) {
+    .footer__container__bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px 25px;
+    }
 }
 .footer__container__bottom__text {
     margin:10px;
