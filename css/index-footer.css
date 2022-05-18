@@ -13,6 +13,19 @@ section.footer__container {
     align-items: center;
     justify-content: space-between;
 }
+@media (min-width: 767px) {
+    .footer__container__top {
+        display: flex;
+        flex-direction: row;
+    }
+    .container__top__inside__empty {
+        max-width: 33.3%;
+    }
+    .container__top__inside__first-order {
+        
+    }
+
+}
 .container__top__inside__empty {
     margin-bottom: 30px;
 }
@@ -39,8 +52,10 @@ section.footer__container {
     margin-right: 10px;
 }
 .first-order__text {
-    width: bold;
     font-size: 14px;
+    width: 100%;
+    font-weight: 700;
+    font-family: PT sans-serif;
 
 }
 .container__top__inside__form {
@@ -86,12 +101,14 @@ section.footer__container {
 }
 .footer__logo__text {
     display: inline;
-    color: var(--line);
+    color: var(--tertiary-text-color);
     font-size: 16px;
     font-weight: 400;
     margin-top: 30px;
     line-height: 27.2px;
-    padding: 0px 15px;
+    
+    text-align: center;
+    font-family: PT sans-serif;
     
 }
 .footer__navigation {
@@ -100,6 +117,7 @@ section.footer__container {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    width: 100%;
 }
 .footer__shop__container {
     margin-top: 30px;
@@ -107,6 +125,7 @@ section.footer__container {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    width: 100%;
 }
 .footer__follow-us {
     margin-top: 30px;
@@ -114,10 +133,11 @@ section.footer__container {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    width: 100%;
 }
 .footer__red__line {
     height: 2px;
-    width: 30%;
+    width: 25%;
     background-color: var(--accent-signal-color);
     margin: 15px auto;
 }
@@ -131,6 +151,7 @@ section.footer__container {
     line-height: normal;
     display: flex;
     flex-direction: column;
+    font-family: PT sans-serif;
 }
 .footer__navigation__links {
     margin-bottom: 15px;
@@ -150,7 +171,11 @@ section.footer__container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+    padding: 10px 0;
+      
+}
+.footer__container__bottom__text {
+    margin:10px;
 }
 
 .footer__social {
@@ -160,8 +185,11 @@ section.footer__container {
     background-color: var(--accent-signal-color);
     transition: 0.3s;
     margin: 25px 5px 5px 5px;
+    
+
 }
 .footer__social:hover {
     background-color: var(--light-color);
     transition: 0.5s;
 }
+
