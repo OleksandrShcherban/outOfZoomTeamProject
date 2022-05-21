@@ -121,3 +121,7 @@ background-color: var(--accent-signal-color);
   text-decoration: none;
   transition: 0.5s;
 }
+
+.kata {
+	height: 20px;
+}
