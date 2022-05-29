@@ -5,20 +5,35 @@
   justify-content: center;
 }
 
+@media (min-width: 991px) {
+  .sale__cards {
+    flex-wrap: nowrap;
+  }
+}
+
 .sale__card,
 .sale__card-img {
   width: 100%;
-  min-width: 272px;
 }
 
 @media (min-width: 480px) {
-  .sale__card, .sale__card-img {
-    max-width: 200px;
-    min-width: auto;
+  .sale__card {
+    max-width: 40%;
   }
 
   .card__media1 {
-    max-width: 767px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sale__card {
+    max-width: 30%;
+  }
+
+  .card__media1, .card__media2 {
+    max-width: 45%;
+    justify-content: space-between;
   }
 }
 
