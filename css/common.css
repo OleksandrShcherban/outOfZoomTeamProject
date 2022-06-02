@@ -71,8 +71,7 @@ a {
 .card__img {
 	margin: 0px 0px 10px 0px;
 }
-.block-img img{
-}
+
 .card__img{
 	display: inline-block;
 }
@@ -120,4 +119,9 @@ background-color: var(--accent-signal-color);
   font-weight: 700;
   text-decoration: none;
   transition: 0.5s;
+}
+
+.kata {
+	height: 20px;
+	width: 300px;
 }

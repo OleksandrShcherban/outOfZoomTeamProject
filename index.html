@@ -21,7 +21,8 @@
 				</div>
 				<div class="grid__contact"><a href="mailto:workout@email.com" class="header__contact">workout@email.com</a>
 				</div>
-				<div class="grid__contact"><a href="tel:12345678900" class="header__contact">+1 (234) 567 89 00</a></div>
+				<div class="grid__contact"><a href="tel:12345678900" class="header__contact">+1 (234) 567 89 00</a>
+				</div>
 			</div>
 		</article>
 		<nav class="header-menu">
@@ -144,13 +145,15 @@
 				<div class="about__container">
 					<H2 class="about__h2">About us<span class="base__span">.</span></H2>
 					<div class="about__divider"></div>
-					<h5 class="about__h5">Workout is an American fitness store created by fitness geeks for those who love
+					<h5 class="about__h5">Workout is an American fitness store created by fitness geeks for those who
+						love
 						sport and try to keep fit.</h5>
 					<p class="about__p">At Workout, we know that great results do not come from standing still. We all
 						need to move, push boundaries, and achieve better results every day. The mission of our shop is
 						to
 						support you in this.</p>
-					<p class="about__p">We're sure that everyday fitness can change your lives and bodies forever. And we
+					<p class="about__p">We're sure that everyday fitness can change your lives and bodies forever. And
+						we
 						keep selling comfortable and high-tech clothes and shoes for your outstanding results.</p>
 					<div class="about-socials">
 						<a href="https://facebook.com"><img class="about__social" src="img/facebook.svg" alt="Face Book"></a>
@@ -180,7 +183,7 @@
 						best buying experience!
 					</p>
 					<div class="sale__cards">
-						<div class="sale__card">
+						<!-- <div class="sale__card">
 							<a href="trainers.html">
 								<img class="sale__card-img" src="img/mid-season-sale/sale-trainers.png" alt="trainers">
 							</a>
@@ -206,7 +209,7 @@
 						</div>
 						<div class="sale__card card__media2">
 							<a href="top.html">
-								<img class="sale__card-img card__media2" src="img/mid-season-sale/sale-top.png" alt="top">
+								<img class="sale__card-img" src="img/mid-season-sale/sale-top.png" alt="top">
 							</a>
 							<a href="top.html" class="sale__card-link">Adidas Cloudfoam Trainers</a>
 							<span class="sale__card-price">$60,00</span>
@@ -214,13 +217,12 @@
 						</div>
 						<div class="sale__card card__media1 card__media2">
 							<a href="t-shirt.html">
-								<img class="sale__card-img card__media1" src="img/mid-season-sale/sale-t-shirt.png"
-									alt="t-shirt">
+								<img class="sale__card-img" src="img/mid-season-sale/sale-t-shirt.png" alt="t-shirt">
 							</a>
 							<a href="t-shirt.html" class="sale__card-link">Adidas Cloudfoam Trainers</a>
 							<span class="sale__card-price">$60,00</span>
 							<input class="base__button" type="submit" value="Add to Cart">
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -402,8 +404,8 @@
 				<div class="container__top__inside__first-order">
 					<!--first order div-->
 					<img class="first-order__inside__icon" src="img/footer_icon.svg" alt="logo">
-					<p class="first-order__text"><span class="footer__ten__procent">10%</span>OFF YOUR FIRST ORDER. SIGN UP
-						TO OUR NEWSLETTER TO GET THIS SPECIAL OFFER.</p>
+					<p class="first-order__text"><span class="footer__ten__procent">10%</span>OFF YOUR FIRST ORDER. SIGN
+						UP TO OUR NEWSLETTER TO GET THIS SPECIAL OFFER.</p>
 				</div>
 				<div class="container__top__inside__form">
 					<!--form div-->
@@ -463,15 +465,70 @@
 				<p class="footer__container__bottom__text">
 					© Created by
 				</p>
+				<img alt="Oleksandr Shcherban" class="kata"
+					src="https://www.codewars.com/users/OleksandrShcherban/badges/small?theme=light">
+				<img alt="Khval Andrii" class="kata"
+					src="https://www.codewars.com/users/Khval-Andrii/badges/small?theme=light">
 				<p class="footer__container__bottom__text">
 					All rights Reserved
 				</p>
 			</div>
 		</section>
 	</footer>
+	<div class="basket basket__wrapper">
+		<div class="basket__svg-bg">
+			<div class="basket__circle-with-number">
+				<span class="basket__quantity-of-goods">1</span>
+			</div>
+		</div>
+	</div>
+	<section class="form-for-basket__bg">
+		<div class="form-for-basket">
+			<header class="form-for-basket__header">
+				<h4 class="form-for-basket__title">Shopping cart</h4>
+			</header>
+			<div class="form-for-basket__products-wrapper">
+				<div class="form-for-basket__products-list">
+					<h6 class="products-list__title">Products</h6>
+					<div class="products-list__item">
+						<img class="products-list__img" src="img/mid-season-sale/sale-t-shirt.png" alt="product">
+						<div class="products-list__description">
+							<h6 class="product-list__name-product">Puma Fitness Shoes in Grey (1332)</h6>
+							<div class="products-list__input-amount">
+								<div class="products-list__input-wrapper">
+									<input class="products-list__input" name="number" type="number">
+								</div>
+								<p class="products-list__amount">$60,00</p>
+							</div>
+						</div>
+						<img class="products-list__mini-basket" src="img/form-for-basket/form-for-basket__mini-basket.svg"
+							alt="mini-basket">
+					</div>
+					<div class="products-list__total-price">
+						<span class="products-list__total">Total::</span>
+						<span class="products-list__price">$60,00</span>
+					</div>
+				</div>
+				<form class="basket__form" action="">
+					<h6 class="form-for-basket__subtitle">Place an order</h6>
+					<label class="basket__form-label" for="name">Name<span>*</span></label>
+					<input class="basket__form-input" id="name" name="name" type="text" placeholder="Your name" required>
+					<label class="basket__form-label" for="email">Email<span>*</span></label>
+					<input class="basket__form-input" id="email" name="email" type="email" placeholder="Your email address"
+						required>
+					<label class="basket__form-label" for="tel">Phone<span>*</span></label>
+					<input class="basket__form-input" id="tel" name="tel" type="tel" placeholder="Your phone" required>
+					<label class="basket__form-label" for="comment">Comment</label>
+					<textarea class="basket__form-input basket__form-textarea" name="comment" id="comment"
+						placeholder="Your comment"></textarea>
+					<button class="base__button" type="submit">Order</button>
+				</form>
+			</div>
+		</div>
+	</section>
 	<script src="js/burger-menu.js"></script>
 	<script src="js/index-main-collection.js"></script>
-
+	<script src="js/sale-product-list.js"></script>
 </body>
 
 </html>
