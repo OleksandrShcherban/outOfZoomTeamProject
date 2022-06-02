@@ -15,9 +15,13 @@
         }
     }
 
-    const response = await fetch('sale-products.json');
+    const response = await fetch ('sale-products.json');
     const products = await response.json();
 
     renderProducts(products);
+
+    // fetch('sale-products.json')
+    //     .then( response => response.json() )
+    //     .then( products => renderProducts(products) );
 
 })();
