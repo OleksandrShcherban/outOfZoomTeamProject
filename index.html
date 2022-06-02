@@ -468,6 +468,50 @@
 			</div>
 		</section>
 	</footer>
+	<section class="form-for-basket__bg">
+		<div class="form-for-basket">
+			<header class="form-for-basket__header">
+				<h4 class="form-for-basket__title">Shopping cart</h4>
+			</header>
+			<div class="form-for-basket__products-wrapper">
+				<div class="form-for-basket__products-list">
+					<h6 class="products-list__title">Products</h6>
+					<div class="products-list__item">
+						<img class="products-list__img" src="img/mid-season-sale/sale-t-shirt.png" alt="product">
+						<div class="products-list__description">
+							<h6 class="product-list__name-product">Puma Fitness Shoes in Grey (1332)</h6>
+							<div class="products-list__input-amount">
+								<div class="products-list__input-wrapper">
+									<input class="products-list__input" name="number" type="number">
+								</div>
+								<p class="products-list__amount">$60,00</p>
+							</div>
+						</div>
+						<img class="products-list__mini-basket" src="img/form-for-basket/form-for-basket__mini-basket.svg"
+							 alt="mini-basket">
+					</div>
+					<div class="products-list__total-price">
+						<span class="products-list__total">Total::</span>
+						<span class="products-list__price">$60,00</span>
+					</div>
+				</div>
+				<form class="basket__form" action="">
+					<h6 class="form-for-basket__subtitle">Place an order</h6>
+					<label class="basket__form-label" for="name">Name<span>*</span></label>
+					<input class="basket__form-input" id="name" name="name" type="text" placeholder="Your name" required>
+					<label class="basket__form-label" for="email">Email<span>*</span></label>
+					<input class="basket__form-input" id="email" name="email" type="email" placeholder="Your email address"
+						   required>
+					<label class="basket__form-label" for="tel">Phone<span>*</span></label>
+					<input class="basket__form-input" id="tel" name="tel" type="tel" placeholder="Your phone" required>
+					<label class="basket__form-label" for="comment">Comment</label>
+					<textarea class="basket__form-input basket__form-textarea" name="comment" id="comment"
+							  placeholder="Your comment"></textarea>
+					<button class="base__button" type="submit">Order</button>
+				</form>
+			</div>
+		</div>
+	</section>
 	<script src="js/burger-menu.js"></script>
 	<script src="js/index-main-collection.js"></script>
 
