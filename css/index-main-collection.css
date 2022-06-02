@@ -48,14 +48,14 @@
 		}
 	}
 		
-		.line{
+		/*.line{
 	display: inline-block;
 	align-items: center;
 	min-width: 7%;
 	height: 2px;
-	background-color: #e0e0e0;
+	background-color: #8a2c2c;
 	margin: 0px 0px 20px 0px;
-}
+}*/
 
 .text__subtitle {
 	font-family: "PT Sans", sans-serif;
