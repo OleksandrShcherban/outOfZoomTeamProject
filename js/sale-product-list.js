@@ -15,7 +15,7 @@
         }
     }
 
-    const response = await fetch('products.json');
+    const response = await fetch('sale-products.json');
     const products = await response.json();
 
     renderProducts(products);
