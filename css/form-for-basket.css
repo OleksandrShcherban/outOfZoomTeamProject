@@ -168,3 +168,8 @@
   .basket__form > button.base__button {
     align-self: center;
   }
+
+  .basket__form > button.base__button:hover {
+    background-color: var(--accent-signal-color);
+    transition: 0.5s;
+  }
