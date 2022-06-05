@@ -108,10 +108,14 @@
     font-family: PT Sans, sans-serif;
   }
   
+.products-list__description {
+  overflow: hidden;
+}
+
   .product-list__name-product {
-    //text-overflow: ellipsis;
-    //overflow: hidden;
-    //white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
   
   .product-list__name-product, .products-list__input-wrapper {
