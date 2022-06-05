@@ -8,7 +8,7 @@
                         <img class="sale__card-img" src="${product.imgUrl}" alt="${product.name}">
                     </a>
                     <a href="trainers.html" class="sale__card-link">${product.name}</a>
-                    <span class="sale__card-price">${product.price}</span>
+                    <span class="sale__card-price"><span>$</span>${product.price}</span>
                     <input class="base__button" type="submit" value="Add to Cart">
                 </div>
             `;
