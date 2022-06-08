@@ -13,8 +13,9 @@
         basketShow.innerHTML += basket;
     }
 
-    const btnAddGoodsInBasket = document.querySelector('.sale__card .base__button');
-    btnAddGoodsInBasket.addEventListener('click', renderBasketAfterClick);
-
+    const btnAddGoodsInBasket = document.querySelectorAll('.base__button');
+    btnAddGoodsInBasket.forEach((btnAddGoods) => {
+	    btnAddGoods.addEventListener("click", renderBasketAfterClick());
+    })
 
 })();
