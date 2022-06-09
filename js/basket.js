@@ -3,7 +3,7 @@ function addToCart(productId) {
         productIds.push(productId)
     }
 
-    console.log(products.find(i => i.id == productId))
+    // console.log(products.find(i => i.id == productId))
 
     const basket = `<div class="basket-show basket__wrapper">
                             <div class="basket__svg-bg">
@@ -13,7 +13,7 @@ function addToCart(productId) {
                             </div>
                         </div>`;
 
-        console.log('click');
+        // console.log('click');
         const basketShow = document.querySelector('.basket__container');
         basketShow.innerHTML += basket;
 }
