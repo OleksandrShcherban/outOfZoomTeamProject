@@ -22,9 +22,6 @@ let products = [];
                     <span class="sale__card-price"><span>$</span>${parseFloat(product.price).toFixed(2)}</span>
                     <input class="base__button button__add-to-cart" onclick="addToCart(${product.id})" type="submit" value="Add to Cart">
             `;
-
-        //div.appendChild(input);
-
         return div;
     }
 
@@ -39,11 +36,4 @@ let products = [];
     products = await response.json();
 
     renderProducts(products);
-
-    // fetch('sale-products.json')
-    //     .then( response => response.json() )
-    //     .then( products => renderProducts(products) );
-
-
-
 })();
