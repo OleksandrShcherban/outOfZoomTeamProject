@@ -3,14 +3,14 @@ let products = [];
 
 (async function () {
     function createCard(product) {
-        const input = document.createElement('input');
-        input.classList.add('base__button');
-        input.classList.add('button__add-to-cart');
-        input.type = 'button';
-        input.value = 'Add to Cart'
-        input.onclick = function() {
-            console.log(234);
-        }
+        // const input = document.createElement('input');
+        // input.classList.add('base__button');
+        // input.classList.add('button__add-to-cart');
+        // input.type = 'button';
+        // input.value = 'Add to Cart'
+        // input.onclick = function() {
+        //     console.log(234);
+        // }
 
         const div = document.createElement('div');
         div.classList.add('sale__card');
