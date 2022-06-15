@@ -3,7 +3,7 @@ function addToCart(productId) {
         productIds.push(productId)
     }
 
-    // console.log(products.find(i => i.id == productId))
+    console.log(products.find(i => i.id == productId));
 
     const basket = `<div class="basket-show basket__wrapper">
                             <div class="basket__svg-bg">
